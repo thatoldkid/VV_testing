@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Vibrant Visuals Showcase GameTest",
+    "description": "GameTest that builds a lighting showcase platform (colored point lights, emissive blocks, water pool, metal reflection pedestals) for inspecting Vibrant Visuals.",
+    "uuid": "e83f8bd3-b249-4c72-b24a-032defd8af29",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 120]
+  },
+  "modules": [
+    {
+      "description": "Lighting showcase test logic",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "349c9e15-4fde-4e71-9289-017bf76f4001",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.13.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-gametest",
+      "version": "1.0.0-beta"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Vibrant Visuals Showcase",
+    "description": "Full Vibrant Visuals (Deferred Rendering) configuration: custom lighting, atmospherics, volumetric fog, color grading, cubemaps, shadows, water, PBR texture sets and per-biome overrides.",
+    "uuid": "f2ad7e68-f7c4-47cc-947d-a0df777ee8b9",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 120]
+  },
+  "modules": [
+    {
+      "description": "Vibrant Visuals resources",
+      "type": "resources",
+      "uuid": "c4669f61-7c05-4d0e-9f69-d3e5ba4a0c82",
+      "version": [1, 0, 0]
+    }
+  ],
+  "capabilities": ["pbr"]
+}

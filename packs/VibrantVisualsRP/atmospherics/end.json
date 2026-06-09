@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:atmosphere_settings": {
+    "description": {
+      "identifier": "vibrant:end_atmospherics"
+    },
+    "horizon_blend_stops": {
+      "min": 0.0,
+      "start": 0.25,
+      "mie_start": 0.5,
+      "max": 0.25
+    },
+    "rayleigh_strength": 0.02,
+    "sun_mie_strength": 0.0,
+    "moon_mie_strength": 0.0,
+    "sun_glare_shape": 4.0,
+    "sky_zenith_color": [8, 4, 16],
+    "sky_horizon_color": [43, 22, 56]
+  }
+}

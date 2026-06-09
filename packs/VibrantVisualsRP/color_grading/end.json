@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:color_grading_settings": {
+    "description": {
+      "identifier": "vibrant:end_grading"
+    },
+    "color_grading": {
+      "midtones": {
+        "contrast": [1.2, 1.2, 1.25],
+        "gain": [0.95, 0.95, 1.08],
+        "gamma": [2.2, 2.2, 2.2],
+        "offset": [0.0, 0.0, 0.0],
+        "saturation": [0.9, 0.9, 1.05]
+      },
+      "temperature": {
+        "enabled": true,
+        "temperature": 9000,
+        "type": "color_temperature"
+      }
+    },
+    "tone_mapping": {
+      "operator": "generic"
+    }
+  }
+}

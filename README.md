@@ -24,6 +24,15 @@ project. Requires **Bedrock 1.21.120+** on a device that supports Vibrant Visual
 
 ## Installation
 
+**Windows quick deploy (recommended for iteration):** double-click **`deploy.bat`**
+(or `deploy.bat preview` for Minecraft Preview). It robocopies both packs into the
+`com.mojang` `development_resource_packs` / `development_behavior_packs` folders, so
+they appear under **My Packs** instantly — no import and no version bump needed.
+Re-run it after any change and re-enter your world. `build_and_import.bat` instead
+rebuilds the `.mcaddon` and opens it with Minecraft's importer.
+
+**Or import the .mcaddon:**
+
 1. Grab `dist/VibrantVisuals.mcaddon` and open it (double-click on Windows, share/open
    with Minecraft on mobile). Minecraft imports both packs.
 2. Create a new world (Creative, Flat recommended) and:

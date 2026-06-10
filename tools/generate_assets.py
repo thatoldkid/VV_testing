@@ -46,8 +46,8 @@ BP_ROOT = os.path.join(REPO, "packs", "VibrantVisualsBP")
 ROUGHNESS_DETAIL = 0.30
 # Bump strength range: flat-ish for mirror-smooth surfaces up to strong relief
 # for fully rough ones (scaled by each block's average vanilla roughness).
-NORMAL_STRENGTH_MIN = 1.0
-NORMAL_STRENGTH_MAX = 5.0
+NORMAL_STRENGTH_MIN = 2.0
+NORMAL_STRENGTH_MAX = 10.0
 MERS_KEYS = ("metalness_emissive_roughness_subsurface", "metalness_emissive_roughness")
 
 

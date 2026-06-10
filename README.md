@@ -6,7 +6,9 @@ Minecraft: Bedrock Edition, consisting of:
 - **`packs/VibrantVisualsRP`** — resource pack implementing the full Advanced Rendering
   ("Deferred") JSON schema set: lighting, atmospherics, volumetric fog & light shafts,
   color grading & tone mapping, cubemap lighting, shadows, water, local (point/static)
-  lights, PBR fallbacks, PBR texture sets, and per-biome overrides.
+  lights, PBR fallbacks, per-biome overrides, and **full-coverage PBR texture sets —
+  bump/heightmaps and detail roughness maps for every vanilla block texture** (1,187
+  texture sets) so all surfaces render with depth.
 - **`packs/VibrantVisualsBP`** — behavior pack with a **GameTest** that builds a lighting
   showcase platform (colored point lights, emissive blocks, a water pool, and metal
   reflection pedestals).
@@ -92,7 +94,7 @@ adds in-game "watch" probes that pair well with this pack:
 | Water | `water/water.json`, `water/ocean.json`, `water/swamp.json` | particle concentrations (chlorophyll/sediment/CDOM), waves, caustics, `biome_water_color_contribution`; caustics + wave-enabled kept identical across files (they can't blend) |
 | Per-biome customization | `biomes/*.client_biome.json` | 10 biomes wiring `minecraft:lighting_identifier`, `minecraft:atmosphere_identifier`, `minecraft:color_grading_identifier`, `minecraft:water_identifier`, `minecraft:fog_appearance` |
 | Keyframe syntax | throughout `lighting/`, `atmospherics/`, `cubemaps/` | `{"time-of-day": value}` pairs, linear interpolation, 0.0 noon / 0.25 sunset / 0.5 midnight / 0.75 sunrise |
-| PBR texture sets | `textures/blocks/*.texture_set.json` | 19 blocks with generated color + MERS (+ heightmaps for the 7 rough blocks) derived from the vanilla base textures |
+| PBR texture sets | `textures/blocks/*.texture_set.json` | **all 1,187 vanilla block texture sets** rebuilt: vanilla metalness/emissive/subsurface channels preserved, roughness maps gain per-pixel luminance detail, and every block gets a bump/heightmap whose depth scales with its roughness (the 4 fluid sets keep their vanilla normal maps instead) |
 
 ## Rebuilding
 

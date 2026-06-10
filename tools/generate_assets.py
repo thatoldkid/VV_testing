@@ -44,11 +44,16 @@ RP_ROOT = os.path.join(REPO, "packs", "VibrantVisualsRP")
 BP_ROOT = os.path.join(REPO, "packs", "VibrantVisualsBP")
 
 # How strongly luminance variance perturbs the vanilla roughness channel.
-ROUGHNESS_DETAIL = 0.50
+# Higher = more contrast between glossy facets and matte crevices, which is
+# what produces visible sparkle/glints as light moves.
+ROUGHNESS_DETAIL = 0.80
+# Multiplier on vanilla roughness: < 1.0 makes every surface glossier so
+# specular glints show up on ordinary blocks, not just metal and glass.
+ROUGHNESS_SCALE = 0.60
 # Bump strength range: flat-ish for mirror-smooth surfaces up to strong relief
 # for fully rough ones (scaled by each block's average vanilla roughness).
-NORMAL_STRENGTH_MIN = 2.0
-NORMAL_STRENGTH_MAX = 10.0
+NORMAL_STRENGTH_MIN = 4.0
+NORMAL_STRENGTH_MAX = 20.0
 # Normal maps are rendered at this multiple of the color texture resolution,
 # from a bicubically upsampled height field, so slopes are smooth instead of
 # 16px stair-steps.
@@ -96,10 +101,12 @@ def build_detail_mers(color_img, mers_img):
     for y in range(h):
         for x in range(w):
             m, e, r, s = src_m[x, y]
-            # Scale detail down on already-smooth surfaces so polished metal
-            # and glass stay near-mirror instead of going matte.
+            # Gloss boost: pull all roughness down so glints appear, then add
+            # luminance detail. Scale detail down on already-smooth surfaces
+            # so polished metal and glass stay near-mirror instead of matte.
+            r_glossy = r * ROUGHNESS_SCALE
             delta = (mean - lumas[y][x]) * ROUGHNESS_DETAIL * (0.3 + 0.7 * r / 255.0)
-            r2 = max(0, min(255, int(r + delta)))
+            r2 = max(0, min(255, int(r_glossy + delta)))
             rough_total += r
             dst[x, y] = (m, e, r2, s)
     return out, rough_total / (w * h)

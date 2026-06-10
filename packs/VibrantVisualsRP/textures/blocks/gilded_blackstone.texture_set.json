@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "gilded_blackstone",
     "metalness_emissive_roughness_subsurface": "gilded_blackstone_mers",
-    "heightmap": "gilded_blackstone_heightmap"
+    "normal": "gilded_blackstone_normal_gen"
   }
 }

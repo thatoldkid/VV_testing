@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "coral_plant_pink",
     "metalness_emissive_roughness_subsurface": "coral_plant_pink_mers",
-    "heightmap": "coral_plant_pink_heightmap"
+    "normal": "coral_plant_pink_normal_gen"
   }
 }

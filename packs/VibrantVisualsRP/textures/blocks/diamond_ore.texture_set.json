@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "diamond_ore",
     "metalness_emissive_roughness_subsurface": "diamond_ore_mers",
-    "heightmap": "diamond_ore_heightmap"
+    "normal": "diamond_ore_normal_gen"
   }
 }

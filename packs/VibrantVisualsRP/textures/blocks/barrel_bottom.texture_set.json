@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "barrel_bottom",
     "metalness_emissive_roughness_subsurface": "barrel_bottom_mers",
-    "heightmap": "barrel_bottom_heightmap"
+    "normal": "barrel_bottom_normal_gen"
   }
 }

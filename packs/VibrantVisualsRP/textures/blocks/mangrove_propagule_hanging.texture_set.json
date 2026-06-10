@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "mangrove_propagule_hanging",
     "metalness_emissive_roughness_subsurface": "mangrove_propagule_hanging_mers",
-    "heightmap": "mangrove_propagule_hanging_heightmap"
+    "normal": "mangrove_propagule_hanging_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "amethyst_block",
     "metalness_emissive_roughness_subsurface": "amethyst_block_mers",
-    "heightmap": "amethyst_block_heightmap"
+    "normal": "amethyst_block_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "grass_block_snow",
     "metalness_emissive_roughness_subsurface": "grass_block_snow_mers",
-    "heightmap": "grass_block_snow_heightmap"
+    "normal": "grass_block_snow_normal_gen"
   }
 }

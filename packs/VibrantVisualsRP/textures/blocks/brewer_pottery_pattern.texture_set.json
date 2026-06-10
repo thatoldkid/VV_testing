@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "brewer_pottery_pattern",
     "metalness_emissive_roughness_subsurface": "brewer_pottery_pattern_mers",
-    "heightmap": "brewer_pottery_pattern_heightmap"
+    "normal": "brewer_pottery_pattern_normal_gen"
   }
 }

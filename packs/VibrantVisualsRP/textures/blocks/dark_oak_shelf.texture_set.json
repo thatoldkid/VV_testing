@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "dark_oak_shelf",
     "metalness_emissive_roughness_subsurface": "dark_oak_shelf_mers",
-    "heightmap": "dark_oak_shelf_heightmap"
+    "normal": "dark_oak_shelf_normal_gen"
   }
 }

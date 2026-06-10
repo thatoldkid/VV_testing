@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "warped_shelf",
     "metalness_emissive_roughness_subsurface": "warped_shelf_mers",
-    "heightmap": "warped_shelf_heightmap"
+    "normal": "warped_shelf_normal_gen"
   }
 }

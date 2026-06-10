@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "quartz_block_chiseled",
     "metalness_emissive_roughness_subsurface": "quartz_block_chiseled_mers",
-    "heightmap": "quartz_block_chiseled_heightmap"
+    "normal": "quartz_block_chiseled_normal_gen"
   }
 }

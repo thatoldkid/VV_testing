@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "eyeblossom_eyes_blooming",
     "metalness_emissive_roughness_subsurface": "eyeblossom_eyes_blooming_mers",
-    "heightmap": "eyeblossom_eyes_blooming_heightmap"
+    "normal": "eyeblossom_eyes_blooming_normal_gen"
   }
 }

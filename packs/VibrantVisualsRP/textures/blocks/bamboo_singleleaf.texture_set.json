@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "bamboo_singleleaf",
     "metalness_emissive_roughness_subsurface": "bamboo_singleleaf_mers",
-    "heightmap": "bamboo_singleleaf_heightmap"
+    "normal": "bamboo_singleleaf_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "door_birch_upper",
     "metalness_emissive_roughness_subsurface": "door_birch_upper_mers",
-    "heightmap": "door_birch_upper_heightmap"
+    "normal": "door_birch_upper_normal_gen"
   }
 }

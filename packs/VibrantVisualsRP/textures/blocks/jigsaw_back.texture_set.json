@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "jigsaw_back",
     "metalness_emissive_roughness_subsurface": "jigsaw_back_mers",
-    "heightmap": "jigsaw_back_heightmap"
+    "normal": "jigsaw_back_normal_gen"
   }
 }

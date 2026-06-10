@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "short_dry_grass",
     "metalness_emissive_roughness_subsurface": "short_dry_grass_mers",
-    "heightmap": "short_dry_grass_heightmap"
+    "normal": "short_dry_grass_normal_gen"
   }
 }

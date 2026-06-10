@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "frogspawn",
     "metalness_emissive_roughness_subsurface": "frogspawn_mers",
-    "heightmap": "frogspawn_heightmap"
+    "normal": "frogspawn_normal_gen"
   }
 }

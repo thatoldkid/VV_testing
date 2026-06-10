@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "border",
     "metalness_emissive_roughness_subsurface": "border_mers",
-    "heightmap": "border_heightmap"
+    "normal": "border_normal_gen"
   }
 }

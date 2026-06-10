@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "farmland_dry",
     "metalness_emissive_roughness_subsurface": "farmland_dry_mers",
-    "heightmap": "farmland_dry_heightmap"
+    "normal": "farmland_dry_normal_gen"
   }
 }

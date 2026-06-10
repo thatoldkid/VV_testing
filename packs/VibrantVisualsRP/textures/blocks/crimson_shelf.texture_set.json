@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "crimson_shelf",
     "metalness_emissive_roughness_subsurface": "crimson_shelf_mers",
-    "heightmap": "crimson_shelf_heightmap"
+    "normal": "crimson_shelf_normal_gen"
   }
 }

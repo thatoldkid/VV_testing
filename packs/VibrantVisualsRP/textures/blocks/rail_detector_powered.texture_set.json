@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "rail_detector_powered",
     "metalness_emissive_roughness_subsurface": "rail_detector_powered_mers",
-    "heightmap": "rail_detector_powered_heightmap"
+    "normal": "rail_detector_powered_normal_gen"
   }
 }

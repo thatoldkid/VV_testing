@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "structure_block_export",
     "metalness_emissive_roughness_subsurface": "structure_block_export_mers",
-    "heightmap": "structure_block_export_heightmap"
+    "normal": "structure_block_export_normal_gen"
   }
 }

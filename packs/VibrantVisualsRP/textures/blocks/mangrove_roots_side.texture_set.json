@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "mangrove_roots_side",
     "metalness_emissive_roughness_subsurface": "mangrove_roots_side_mers",
-    "heightmap": "mangrove_roots_side_heightmap"
+    "normal": "mangrove_roots_side_normal_gen"
   }
 }

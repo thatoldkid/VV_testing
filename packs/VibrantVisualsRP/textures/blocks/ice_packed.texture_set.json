@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "ice_packed",
     "metalness_emissive_roughness_subsurface": "ice_packed_mers",
-    "heightmap": "ice_packed_heightmap"
+    "normal": "ice_packed_normal_gen"
   }
 }

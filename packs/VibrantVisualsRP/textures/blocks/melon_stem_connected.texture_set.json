@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "melon_stem_connected",
     "metalness_emissive_roughness_subsurface": "melon_stem_connected_mers",
-    "heightmap": "melon_stem_connected_heightmap"
+    "normal": "melon_stem_connected_normal_gen"
   }
 }

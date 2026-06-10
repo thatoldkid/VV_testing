@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "angler_pottery_pattern",
     "metalness_emissive_roughness_subsurface": "angler_pottery_pattern_mers",
-    "heightmap": "angler_pottery_pattern_heightmap"
+    "normal": "angler_pottery_pattern_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "mob_spawner",
     "metalness_emissive_roughness_subsurface": "mob_spawner_mers",
-    "heightmap": "mob_spawner_heightmap"
+    "normal": "mob_spawner_normal_gen"
   }
 }

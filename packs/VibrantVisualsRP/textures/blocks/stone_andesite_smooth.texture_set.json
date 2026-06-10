@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "stone_andesite_smooth",
     "metalness_emissive_roughness_subsurface": "stone_andesite_smooth_mers",
-    "heightmap": "stone_andesite_smooth_heightmap"
+    "normal": "stone_andesite_smooth_normal_gen"
   }
 }

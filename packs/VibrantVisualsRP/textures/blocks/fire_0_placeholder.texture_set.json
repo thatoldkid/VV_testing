@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "fire_0_placeholder",
     "metalness_emissive_roughness_subsurface": "fire_0_placeholder_mers",
-    "heightmap": "fire_0_placeholder_heightmap"
+    "normal": "fire_0_placeholder_normal_gen"
   }
 }

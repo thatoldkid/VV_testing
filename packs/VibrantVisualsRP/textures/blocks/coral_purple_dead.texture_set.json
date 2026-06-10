@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "coral_purple_dead",
     "metalness_emissive_roughness_subsurface": "coral_purple_dead_mers",
-    "heightmap": "coral_purple_dead_heightmap"
+    "normal": "coral_purple_dead_normal_gen"
   }
 }

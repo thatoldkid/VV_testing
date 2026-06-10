@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "bell_bottom",
     "metalness_emissive_roughness_subsurface": "bell_bottom_mers",
-    "heightmap": "bell_bottom_heightmap"
+    "normal": "bell_bottom_normal_gen"
   }
 }

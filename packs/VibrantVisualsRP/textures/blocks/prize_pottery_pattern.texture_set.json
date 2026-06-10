@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "prize_pottery_pattern",
     "metalness_emissive_roughness_subsurface": "prize_pottery_pattern_mers",
-    "heightmap": "prize_pottery_pattern_heightmap"
+    "normal": "prize_pottery_pattern_normal_gen"
   }
 }

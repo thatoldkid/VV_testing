@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "bamboo_fence_gate",
     "metalness_emissive_roughness_subsurface": "bamboo_fence_gate_mers",
-    "heightmap": "bamboo_fence_gate_heightmap"
+    "normal": "bamboo_fence_gate_normal_gen"
   }
 }

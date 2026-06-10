@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "frosted_ice_2",
     "metalness_emissive_roughness_subsurface": "frosted_ice_2_mers",
-    "heightmap": "frosted_ice_2_heightmap"
+    "normal": "frosted_ice_2_normal_gen"
   }
 }

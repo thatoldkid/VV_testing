@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "planks_acacia",
     "metalness_emissive_roughness_subsurface": "planks_acacia_mers",
-    "heightmap": "planks_acacia_heightmap"
+    "normal": "planks_acacia_normal_gen"
   }
 }

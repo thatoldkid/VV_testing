@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "bamboo_leaf",
     "metalness_emissive_roughness_subsurface": "bamboo_leaf_mers",
-    "heightmap": "bamboo_leaf_heightmap"
+    "normal": "bamboo_leaf_normal_gen"
   }
 }

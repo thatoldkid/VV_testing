@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "weathered_lightning_rod",
     "metalness_emissive_roughness_subsurface": "weathered_lightning_rod_mers",
-    "heightmap": "weathered_lightning_rod_heightmap"
+    "normal": "weathered_lightning_rod_normal_gen"
   }
 }

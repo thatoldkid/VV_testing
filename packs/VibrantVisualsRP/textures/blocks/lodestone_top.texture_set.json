@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "lodestone_top",
     "metalness_emissive_roughness_subsurface": "lodestone_top_mers",
-    "heightmap": "lodestone_top_heightmap"
+    "normal": "lodestone_top_normal_gen"
   }
 }

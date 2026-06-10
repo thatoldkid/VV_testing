@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "water_flow",
     "metalness_emissive_roughness_subsurface": "water_flow_mers",
-    "heightmap": "water_flow_heightmap"
+    "normal": "water_flow_normal_gen"
   }
 }

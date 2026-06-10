@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "pumpkin_stem_disconnected",
     "metalness_emissive_roughness_subsurface": "pumpkin_stem_disconnected_mers",
-    "heightmap": "pumpkin_stem_disconnected_heightmap"
+    "normal": "pumpkin_stem_disconnected_normal_gen"
   }
 }

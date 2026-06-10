@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "dragon_egg",
     "metalness_emissive_roughness_subsurface": "dragon_egg_mers",
-    "heightmap": "dragon_egg_heightmap"
+    "normal": "dragon_egg_normal_gen"
   }
 }

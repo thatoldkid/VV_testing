@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "leaves_spruce",
     "metalness_emissive_roughness_subsurface": "leaves_spruce_mers",
-    "heightmap": "leaves_spruce_heightmap"
+    "normal": "leaves_spruce_normal_gen"
   }
 }

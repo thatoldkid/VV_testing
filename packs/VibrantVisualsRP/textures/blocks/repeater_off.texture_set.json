@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "repeater_off",
     "metalness_emissive_roughness_subsurface": "repeater_off_mers",
-    "heightmap": "repeater_off_heightmap"
+    "normal": "repeater_off_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "sculk_vein",
     "metalness_emissive_roughness_subsurface": "sculk_vein_mers",
-    "heightmap": "sculk_vein_heightmap"
+    "normal": "sculk_vein_normal_gen"
   }
 }

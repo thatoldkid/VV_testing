@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "door_spruce_lower",
     "metalness_emissive_roughness_subsurface": "door_spruce_lower_mers",
-    "heightmap": "door_spruce_lower_heightmap"
+    "normal": "door_spruce_lower_normal_gen"
   }
 }

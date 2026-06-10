@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "chain_command_block_back",
     "metalness_emissive_roughness_subsurface": "chain_command_block_back_mers",
-    "heightmap": "chain_command_block_back_heightmap"
+    "normal": "chain_command_block_back_normal_gen"
   }
 }

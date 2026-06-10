@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "nether_wart_stage_2",
     "metalness_emissive_roughness_subsurface": "nether_wart_stage_2_mers",
-    "heightmap": "nether_wart_stage_2_heightmap"
+    "normal": "nether_wart_stage_2_normal_gen"
   }
 }

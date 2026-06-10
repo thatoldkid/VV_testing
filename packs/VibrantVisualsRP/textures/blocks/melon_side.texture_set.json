@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "melon_side",
     "metalness_emissive_roughness_subsurface": "melon_side_mers",
-    "heightmap": "melon_side_heightmap"
+    "normal": "melon_side_normal_gen"
   }
 }

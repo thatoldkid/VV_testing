@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "fern",
     "metalness_emissive_roughness_subsurface": "fern_mers",
-    "heightmap": "fern_heightmap"
+    "normal": "fern_normal_gen"
   }
 }

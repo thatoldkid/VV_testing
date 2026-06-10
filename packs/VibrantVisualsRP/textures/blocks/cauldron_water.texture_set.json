@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "cauldron_water",
     "metalness_emissive_roughness_subsurface": "cauldron_water_mers",
-    "heightmap": "cauldron_water_heightmap"
+    "normal": "cauldron_water_normal_gen"
   }
 }

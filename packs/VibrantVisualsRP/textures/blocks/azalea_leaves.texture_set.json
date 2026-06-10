@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "azalea_leaves",
     "metalness_emissive_roughness_subsurface": "azalea_leaves_mers",
-    "heightmap": "azalea_leaves_heightmap"
+    "normal": "azalea_leaves_normal_gen"
   }
 }

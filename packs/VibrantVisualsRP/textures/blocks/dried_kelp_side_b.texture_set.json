@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "dried_kelp_side_b",
     "metalness_emissive_roughness_subsurface": "dried_kelp_side_b_mers",
-    "heightmap": "dried_kelp_side_b_heightmap"
+    "normal": "dried_kelp_side_b_normal_gen"
   }
 }

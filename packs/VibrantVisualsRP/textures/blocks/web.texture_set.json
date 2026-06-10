@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "web",
     "metalness_emissive_roughness_subsurface": "web_mers",
-    "heightmap": "web_heightmap"
+    "normal": "web_normal_gen"
   }
 }

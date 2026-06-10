@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "iron_bars",
     "metalness_emissive_roughness_subsurface": "iron_bars_mers",
-    "heightmap": "iron_bars_heightmap"
+    "normal": "iron_bars_normal_gen"
   }
 }

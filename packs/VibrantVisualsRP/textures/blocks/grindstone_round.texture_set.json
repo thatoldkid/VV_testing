@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "grindstone_round",
     "metalness_emissive_roughness_subsurface": "grindstone_round_mers",
-    "heightmap": "grindstone_round_heightmap"
+    "normal": "grindstone_round_normal_gen"
   }
 }

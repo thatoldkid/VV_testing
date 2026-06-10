@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "large_amethyst_bud",
     "metalness_emissive_roughness_subsurface": "large_amethyst_bud_mers",
-    "heightmap": "large_amethyst_bud_heightmap"
+    "normal": "large_amethyst_bud_normal_gen"
   }
 }

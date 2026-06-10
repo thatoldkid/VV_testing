@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "coral_fan_blue",
     "metalness_emissive_roughness_subsurface": "coral_fan_blue_mers",
-    "heightmap": "coral_fan_blue_heightmap"
+    "normal": "coral_fan_blue_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "double_plant_grass_carried",
     "metalness_emissive_roughness_subsurface": "double_plant_grass_carried_mers",
-    "heightmap": "double_plant_grass_carried_heightmap"
+    "normal": "double_plant_grass_carried_normal_gen"
   }
 }

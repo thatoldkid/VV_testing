@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "door_jungle_lower",
     "metalness_emissive_roughness_subsurface": "door_jungle_lower_mers",
-    "heightmap": "door_jungle_lower_heightmap"
+    "normal": "door_jungle_lower_normal_gen"
   }
 }

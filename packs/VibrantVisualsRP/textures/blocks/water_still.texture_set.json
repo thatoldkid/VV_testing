@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "water_still",
     "metalness_emissive_roughness_subsurface": "water_still_mers",
-    "heightmap": "water_still_heightmap"
+    "normal": "water_still_normal_gen"
   }
 }

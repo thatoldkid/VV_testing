@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "bed_feet_end",
     "metalness_emissive_roughness_subsurface": "bed_feet_end_mers",
-    "heightmap": "bed_feet_end_heightmap"
+    "normal": "bed_feet_end_normal_gen"
   }
 }

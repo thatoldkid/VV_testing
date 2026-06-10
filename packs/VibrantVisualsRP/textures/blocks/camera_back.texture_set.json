@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "camera_back",
     "metalness_emissive_roughness_subsurface": "camera_back_mers",
-    "heightmap": "camera_back_heightmap"
+    "normal": "camera_back_normal_gen"
   }
 }

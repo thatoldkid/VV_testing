@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "concrete_pink",
     "metalness_emissive_roughness_subsurface": "concrete_pink_mers",
-    "heightmap": "concrete_pink_heightmap"
+    "normal": "concrete_pink_normal_gen"
   }
 }

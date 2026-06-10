@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "bed_head_side",
     "metalness_emissive_roughness_subsurface": "bed_head_side_mers",
-    "heightmap": "bed_head_side_heightmap"
+    "normal": "bed_head_side_normal_gen"
   }
 }

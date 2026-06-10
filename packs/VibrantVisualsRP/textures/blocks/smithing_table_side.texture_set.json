@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "smithing_table_side",
     "metalness_emissive_roughness_subsurface": "smithing_table_side_mers",
-    "heightmap": "smithing_table_side_heightmap"
+    "normal": "smithing_table_side_normal_gen"
   }
 }

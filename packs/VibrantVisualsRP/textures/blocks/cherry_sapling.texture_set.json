@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "cherry_sapling",
     "metalness_emissive_roughness_subsurface": "cherry_sapling_mers",
-    "heightmap": "cherry_sapling_heightmap"
+    "normal": "cherry_sapling_normal_gen"
   }
 }

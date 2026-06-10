@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "oxidized_copper_bulb_lit_powered",
     "metalness_emissive_roughness_subsurface": "oxidized_copper_bulb_lit_powered_mers",
-    "heightmap": "oxidized_copper_bulb_lit_powered_heightmap"
+    "normal": "oxidized_copper_bulb_lit_powered_normal_gen"
   }
 }

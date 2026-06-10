@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "dirt_podzol_side",
     "metalness_emissive_roughness_subsurface": "dirt_podzol_side_mers",
-    "heightmap": "dirt_podzol_side_heightmap"
+    "normal": "dirt_podzol_side_normal_gen"
   }
 }

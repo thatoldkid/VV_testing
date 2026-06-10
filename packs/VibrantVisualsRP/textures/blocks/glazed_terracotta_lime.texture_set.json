@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "glazed_terracotta_lime",
     "metalness_emissive_roughness_subsurface": "glazed_terracotta_lime_mers",
-    "heightmap": "glazed_terracotta_lime_heightmap"
+    "normal": "glazed_terracotta_lime_normal_gen"
   }
 }

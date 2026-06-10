@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "chiseled_tuff_bricks",
     "metalness_emissive_roughness_subsurface": "chiseled_tuff_bricks_mers",
-    "heightmap": "chiseled_tuff_bricks_heightmap"
+    "normal": "chiseled_tuff_bricks_normal_gen"
   }
 }

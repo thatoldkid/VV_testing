@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "missing_tile",
     "metalness_emissive_roughness_subsurface": "missing_tile_mers",
-    "heightmap": "missing_tile_heightmap"
+    "normal": "missing_tile_normal_gen"
   }
 }

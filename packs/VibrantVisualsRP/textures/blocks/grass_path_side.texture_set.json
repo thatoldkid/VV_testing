@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "grass_path_side",
     "metalness_emissive_roughness_subsurface": "grass_path_side_mers",
-    "heightmap": "grass_path_side_heightmap"
+    "normal": "grass_path_side_normal_gen"
   }
 }

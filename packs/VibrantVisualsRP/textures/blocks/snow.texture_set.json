@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "snow",
     "metalness_emissive_roughness_subsurface": "snow_mers",
-    "heightmap": "snow_heightmap"
+    "normal": "snow_normal_gen"
   }
 }

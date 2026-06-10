@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "sculk_shrieker_bottom",
     "metalness_emissive_roughness_subsurface": "sculk_shrieker_bottom_mers",
-    "heightmap": "sculk_shrieker_bottom_heightmap"
+    "normal": "sculk_shrieker_bottom_normal_gen"
   }
 }

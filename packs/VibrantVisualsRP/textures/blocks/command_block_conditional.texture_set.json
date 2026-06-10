@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "command_block_conditional",
     "metalness_emissive_roughness_subsurface": "command_block_conditional_mers",
-    "heightmap": "command_block_conditional_heightmap"
+    "normal": "command_block_conditional_normal_gen"
   }
 }

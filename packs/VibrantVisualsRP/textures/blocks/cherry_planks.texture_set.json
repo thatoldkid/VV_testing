@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "cherry_planks",
     "metalness_emissive_roughness_subsurface": "cherry_planks_mers",
-    "heightmap": "cherry_planks_heightmap"
+    "normal": "cherry_planks_normal_gen"
   }
 }

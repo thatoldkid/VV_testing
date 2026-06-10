@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "spruce_shelf",
     "metalness_emissive_roughness_subsurface": "spruce_shelf_mers",
-    "heightmap": "spruce_shelf_heightmap"
+    "normal": "spruce_shelf_normal_gen"
   }
 }

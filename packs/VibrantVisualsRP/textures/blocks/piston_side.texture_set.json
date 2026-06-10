@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "piston_side",
     "metalness_emissive_roughness_subsurface": "piston_side_mers",
-    "heightmap": "piston_side_heightmap"
+    "normal": "piston_side_normal_gen"
   }
 }

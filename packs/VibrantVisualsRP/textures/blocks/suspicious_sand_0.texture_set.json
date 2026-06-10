@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "suspicious_sand_0",
     "metalness_emissive_roughness_subsurface": "suspicious_sand_0_mers",
-    "heightmap": "suspicious_sand_0_heightmap"
+    "normal": "suspicious_sand_0_normal_gen"
   }
 }

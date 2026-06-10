@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "resin_clump",
     "metalness_emissive_roughness_subsurface": "resin_clump_mers",
-    "heightmap": "resin_clump_heightmap"
+    "normal": "resin_clump_normal_gen"
   }
 }

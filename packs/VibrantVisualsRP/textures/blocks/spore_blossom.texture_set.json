@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "spore_blossom",
     "metalness_emissive_roughness_subsurface": "spore_blossom_mers",
-    "heightmap": "spore_blossom_heightmap"
+    "normal": "spore_blossom_normal_gen"
   }
 }

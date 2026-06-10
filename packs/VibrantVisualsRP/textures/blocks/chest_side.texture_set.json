@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "chest_side",
     "metalness_emissive_roughness_subsurface": "chest_side_mers",
-    "heightmap": "chest_side_heightmap"
+    "normal": "chest_side_normal_gen"
   }
 }

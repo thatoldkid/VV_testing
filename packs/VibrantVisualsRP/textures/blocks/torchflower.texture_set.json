@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "torchflower",
     "metalness_emissive_roughness_subsurface": "torchflower_mers",
-    "heightmap": "torchflower_heightmap"
+    "normal": "torchflower_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "heavy_core",
     "metalness_emissive_roughness_subsurface": "heavy_core_mers",
-    "heightmap": "heavy_core_heightmap"
+    "normal": "heavy_core_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "sapling_birch",
     "metalness_emissive_roughness_subsurface": "sapling_birch_mers",
-    "heightmap": "sapling_birch_heightmap"
+    "normal": "sapling_birch_normal_gen"
   }
 }

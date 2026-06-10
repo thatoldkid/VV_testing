@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "jigsaw_lock",
     "metalness_emissive_roughness_subsurface": "jigsaw_lock_mers",
-    "heightmap": "jigsaw_lock_heightmap"
+    "normal": "jigsaw_lock_normal_gen"
   }
 }

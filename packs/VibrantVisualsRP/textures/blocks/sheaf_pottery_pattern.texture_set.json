@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "sheaf_pottery_pattern",
     "metalness_emissive_roughness_subsurface": "sheaf_pottery_pattern_mers",
-    "heightmap": "sheaf_pottery_pattern_heightmap"
+    "normal": "sheaf_pottery_pattern_normal_gen"
   }
 }

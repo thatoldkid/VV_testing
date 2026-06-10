@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "trapped_chest_front",
     "metalness_emissive_roughness_subsurface": "trapped_chest_front_mers",
-    "heightmap": "trapped_chest_front_heightmap"
+    "normal": "trapped_chest_front_normal_gen"
   }
 }

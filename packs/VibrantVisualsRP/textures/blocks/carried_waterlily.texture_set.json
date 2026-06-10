@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "carried_waterlily",
     "metalness_emissive_roughness_subsurface": "carried_waterlily_mers",
-    "heightmap": "carried_waterlily_heightmap"
+    "normal": "carried_waterlily_normal_gen"
   }
 }

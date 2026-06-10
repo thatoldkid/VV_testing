@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "glow_lichen",
     "metalness_emissive_roughness_subsurface": "glow_lichen_mers",
-    "heightmap": "glow_lichen_heightmap"
+    "normal": "glow_lichen_normal_gen"
   }
 }

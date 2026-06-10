@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "glass_pink",
     "metalness_emissive_roughness_subsurface": "glass_pink_mers",
-    "heightmap": "glass_pink_heightmap"
+    "normal": "glass_pink_normal_gen"
   }
 }

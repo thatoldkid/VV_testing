@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "log_birch",
     "metalness_emissive_roughness_subsurface": "log_birch_mers",
-    "heightmap": "log_birch_heightmap"
+    "normal": "log_birch_normal_gen"
   }
 }

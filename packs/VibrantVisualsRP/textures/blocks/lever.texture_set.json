@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "lever",
     "metalness_emissive_roughness_subsurface": "lever_mers",
-    "heightmap": "lever_heightmap"
+    "normal": "lever_normal_gen"
   }
 }

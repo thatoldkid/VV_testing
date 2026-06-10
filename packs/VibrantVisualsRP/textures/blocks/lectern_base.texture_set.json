@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "lectern_base",
     "metalness_emissive_roughness_subsurface": "lectern_base_mers",
-    "heightmap": "lectern_base_heightmap"
+    "normal": "lectern_base_normal_gen"
   }
 }

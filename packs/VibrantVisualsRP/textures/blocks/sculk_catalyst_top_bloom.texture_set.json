@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "sculk_catalyst_top_bloom",
     "metalness_emissive_roughness_subsurface": "sculk_catalyst_top_bloom_mers",
-    "heightmap": "sculk_catalyst_top_bloom_heightmap"
+    "normal": "sculk_catalyst_top_bloom_normal_gen"
   }
 }

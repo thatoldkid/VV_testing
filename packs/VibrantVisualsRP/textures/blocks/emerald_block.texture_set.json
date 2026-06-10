@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "emerald_block",
     "metalness_emissive_roughness_subsurface": "emerald_block_mers",
-    "heightmap": "emerald_block_heightmap"
+    "normal": "emerald_block_normal_gen"
   }
 }

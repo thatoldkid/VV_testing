@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "creaking_heart_top_inactive",
     "metalness_emissive_roughness_subsurface": "creaking_heart_top_inactive_mers",
-    "heightmap": "creaking_heart_top_inactive_heightmap"
+    "normal": "creaking_heart_top_inactive_normal_gen"
   }
 }

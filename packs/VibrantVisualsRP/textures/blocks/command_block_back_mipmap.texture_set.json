@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "command_block_back_mipmap",
     "metalness_emissive_roughness_subsurface": "command_block_back_mipmap_mers",
-    "heightmap": "command_block_back_mipmap_heightmap"
+    "normal": "command_block_back_mipmap_normal_gen"
   }
 }

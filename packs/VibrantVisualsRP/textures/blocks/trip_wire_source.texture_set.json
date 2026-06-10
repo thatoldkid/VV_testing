@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "trip_wire_source",
     "metalness_emissive_roughness_subsurface": "trip_wire_source_mers",
-    "heightmap": "trip_wire_source_heightmap"
+    "normal": "trip_wire_source_normal_gen"
   }
 }

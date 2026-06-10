@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "dispenser_front_vertical",
     "metalness_emissive_roughness_subsurface": "dispenser_front_vertical_mers",
-    "heightmap": "dispenser_front_vertical_heightmap"
+    "normal": "dispenser_front_vertical_normal_gen"
   }
 }

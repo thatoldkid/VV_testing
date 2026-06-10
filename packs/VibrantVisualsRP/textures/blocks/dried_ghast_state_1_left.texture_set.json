@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "dried_ghast_state_1_left",
     "metalness_emissive_roughness_subsurface": "dried_ghast_state_1_left_mers",
-    "heightmap": "dried_ghast_state_1_left_heightmap"
+    "normal": "dried_ghast_state_1_left_normal_gen"
   }
 }

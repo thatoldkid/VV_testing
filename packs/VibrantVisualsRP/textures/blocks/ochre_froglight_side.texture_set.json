@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "ochre_froglight_side",
     "metalness_emissive_roughness_subsurface": "ochre_froglight_side_mers",
-    "heightmap": "ochre_froglight_side_heightmap"
+    "normal": "ochre_froglight_side_normal_gen"
   }
 }

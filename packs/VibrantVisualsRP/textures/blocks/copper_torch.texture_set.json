@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "copper_torch",
     "metalness_emissive_roughness_subsurface": "copper_torch_mers",
-    "heightmap": "copper_torch_heightmap"
+    "normal": "copper_torch_normal_gen"
   }
 }

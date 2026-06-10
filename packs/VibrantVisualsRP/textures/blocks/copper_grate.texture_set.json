@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "copper_grate",
     "metalness_emissive_roughness_subsurface": "copper_grate_mers",
-    "heightmap": "copper_grate_heightmap"
+    "normal": "copper_grate_normal_gen"
   }
 }

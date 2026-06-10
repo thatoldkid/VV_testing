@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "comparator_off",
     "metalness_emissive_roughness_subsurface": "comparator_off_mers",
-    "heightmap": "comparator_off_heightmap"
+    "normal": "comparator_off_normal_gen"
   }
 }

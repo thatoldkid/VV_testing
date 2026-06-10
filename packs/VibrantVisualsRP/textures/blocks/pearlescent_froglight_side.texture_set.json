@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "pearlescent_froglight_side",
     "metalness_emissive_roughness_subsurface": "pearlescent_froglight_side_mers",
-    "heightmap": "pearlescent_froglight_side_heightmap"
+    "normal": "pearlescent_froglight_side_normal_gen"
   }
 }

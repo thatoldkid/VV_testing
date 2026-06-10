@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "conduit_closed",
     "metalness_emissive_roughness_subsurface": "conduit_closed_mers",
-    "heightmap": "conduit_closed_heightmap"
+    "normal": "conduit_closed_normal_gen"
   }
 }

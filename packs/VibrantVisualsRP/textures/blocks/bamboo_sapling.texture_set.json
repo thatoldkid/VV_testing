@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "bamboo_sapling",
     "metalness_emissive_roughness_subsurface": "bamboo_sapling_mers",
-    "heightmap": "bamboo_sapling_heightmap"
+    "normal": "bamboo_sapling_normal_gen"
   }
 }

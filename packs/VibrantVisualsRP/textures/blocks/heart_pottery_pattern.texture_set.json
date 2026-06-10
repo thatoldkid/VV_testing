@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "heart_pottery_pattern",
     "metalness_emissive_roughness_subsurface": "heart_pottery_pattern_mers",
-    "heightmap": "heart_pottery_pattern_heightmap"
+    "normal": "heart_pottery_pattern_normal_gen"
   }
 }

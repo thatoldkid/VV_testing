@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "warped_wart_block",
     "metalness_emissive_roughness_subsurface": "warped_wart_block_mers",
-    "heightmap": "warped_wart_block_heightmap"
+    "normal": "warped_wart_block_normal_gen"
   }
 }

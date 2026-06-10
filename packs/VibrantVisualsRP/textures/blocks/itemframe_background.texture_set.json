@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "itemframe_background",
     "metalness_emissive_roughness_subsurface": "itemframe_background_mers",
-    "heightmap": "itemframe_background_heightmap"
+    "normal": "itemframe_background_normal_gen"
   }
 }

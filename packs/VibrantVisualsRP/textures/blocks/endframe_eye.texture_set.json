@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "endframe_eye",
     "metalness_emissive_roughness_subsurface": "endframe_eye_mers",
-    "heightmap": "endframe_eye_heightmap"
+    "normal": "endframe_eye_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "gold_block",
     "metalness_emissive_roughness_subsurface": "gold_block_mers",
-    "heightmap": "gold_block_heightmap"
+    "normal": "gold_block_normal_gen"
   }
 }

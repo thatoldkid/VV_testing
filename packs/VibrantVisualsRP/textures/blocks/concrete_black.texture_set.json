@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "concrete_black",
     "metalness_emissive_roughness_subsurface": "concrete_black_mers",
-    "heightmap": "concrete_black_heightmap"
+    "normal": "concrete_black_normal_gen"
   }
 }

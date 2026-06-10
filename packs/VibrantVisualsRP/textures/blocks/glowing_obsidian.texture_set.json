@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "glowing_obsidian",
     "metalness_emissive_roughness_subsurface": "glowing_obsidian_mers",
-    "heightmap": "glowing_obsidian_heightmap"
+    "normal": "glowing_obsidian_normal_gen"
   }
 }

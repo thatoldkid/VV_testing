@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "explorer_pottery_pattern",
     "metalness_emissive_roughness_subsurface": "explorer_pottery_pattern_mers",
-    "heightmap": "explorer_pottery_pattern_heightmap"
+    "normal": "explorer_pottery_pattern_normal_gen"
   }
 }

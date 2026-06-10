@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "lantern",
     "metalness_emissive_roughness_subsurface": "lantern_mers",
-    "heightmap": "lantern_heightmap"
+    "normal": "lantern_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "lava_placeholder",
     "metalness_emissive_roughness_subsurface": "lava_placeholder_mers",
-    "heightmap": "lava_placeholder_heightmap"
+    "normal": "lava_placeholder_normal_gen"
   }
 }

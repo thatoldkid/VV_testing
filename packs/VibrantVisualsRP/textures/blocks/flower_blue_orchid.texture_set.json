@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "flower_blue_orchid",
     "metalness_emissive_roughness_subsurface": "flower_blue_orchid_mers",
-    "heightmap": "flower_blue_orchid_heightmap"
+    "normal": "flower_blue_orchid_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "vault_side_on_ominous",
     "metalness_emissive_roughness_subsurface": "vault_side_on_ominous_mers",
-    "heightmap": "vault_side_on_ominous_heightmap"
+    "normal": "vault_side_on_ominous_normal_gen"
   }
 }

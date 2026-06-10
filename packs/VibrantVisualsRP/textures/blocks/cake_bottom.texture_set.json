@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "cake_bottom",
     "metalness_emissive_roughness_subsurface": "cake_bottom_mers",
-    "heightmap": "cake_bottom_heightmap"
+    "normal": "cake_bottom_normal_gen"
   }
 }

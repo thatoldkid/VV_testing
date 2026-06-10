@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "sponge_wet",
     "metalness_emissive_roughness_subsurface": "sponge_wet_mers",
-    "heightmap": "sponge_wet_heightmap"
+    "normal": "sponge_wet_normal_gen"
   }
 }

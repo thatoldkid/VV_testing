@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "bee_nest_front_honey",
     "metalness_emissive_roughness_subsurface": "bee_nest_front_honey_mers",
-    "heightmap": "bee_nest_front_honey_heightmap"
+    "normal": "bee_nest_front_honey_normal_gen"
   }
 }

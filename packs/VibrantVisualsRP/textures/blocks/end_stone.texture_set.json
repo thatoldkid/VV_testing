@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "end_stone",
     "metalness_emissive_roughness_subsurface": "end_stone_mers",
-    "heightmap": "end_stone_heightmap"
+    "normal": "end_stone_normal_gen"
   }
 }

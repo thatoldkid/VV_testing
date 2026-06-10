@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "hardened_clay_stained_brown",
     "metalness_emissive_roughness_subsurface": "hardened_clay_stained_brown_mers",
-    "heightmap": "hardened_clay_stained_brown_heightmap"
+    "normal": "hardened_clay_stained_brown_normal_gen"
   }
 }

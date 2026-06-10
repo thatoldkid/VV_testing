@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "structure_air",
     "metalness_emissive_roughness_subsurface": "structure_air_mers",
-    "heightmap": "structure_air_heightmap"
+    "normal": "structure_air_normal_gen"
   }
 }

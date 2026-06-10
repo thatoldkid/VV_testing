@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "carrots_stage_3",
     "metalness_emissive_roughness_subsurface": "carrots_stage_3_mers",
-    "heightmap": "carrots_stage_3_heightmap"
+    "normal": "carrots_stage_3_normal_gen"
   }
 }

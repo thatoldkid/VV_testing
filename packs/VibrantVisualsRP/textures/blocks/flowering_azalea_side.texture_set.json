@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "flowering_azalea_side",
     "metalness_emissive_roughness_subsurface": "flowering_azalea_side_mers",
-    "heightmap": "flowering_azalea_side_heightmap"
+    "normal": "flowering_azalea_side_normal_gen"
   }
 }

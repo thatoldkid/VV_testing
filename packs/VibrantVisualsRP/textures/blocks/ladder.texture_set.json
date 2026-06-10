@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "ladder",
     "metalness_emissive_roughness_subsurface": "ladder_mers",
-    "heightmap": "ladder_heightmap"
+    "normal": "ladder_normal_gen"
   }
 }

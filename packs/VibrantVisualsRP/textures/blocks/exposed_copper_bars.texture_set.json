@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "exposed_copper_bars",
     "metalness_emissive_roughness_subsurface": "exposed_copper_bars_mers",
-    "heightmap": "exposed_copper_bars_heightmap"
+    "normal": "exposed_copper_bars_normal_gen"
   }
 }

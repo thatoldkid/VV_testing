@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "bamboo_planks",
     "metalness_emissive_roughness_subsurface": "bamboo_planks_mers",
-    "heightmap": "bamboo_planks_heightmap"
+    "normal": "bamboo_planks_normal_gen"
   }
 }

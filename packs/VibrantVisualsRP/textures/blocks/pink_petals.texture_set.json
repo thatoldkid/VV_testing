@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "pink_petals",
     "metalness_emissive_roughness_subsurface": "pink_petals_mers",
-    "heightmap": "pink_petals_heightmap"
+    "normal": "pink_petals_normal_gen"
   }
 }

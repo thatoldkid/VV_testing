@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "anvil_top_damaged_2",
     "metalness_emissive_roughness_subsurface": "anvil_top_damaged_2_mers",
-    "heightmap": "anvil_top_damaged_2_heightmap"
+    "normal": "anvil_top_damaged_2_normal_gen"
   }
 }

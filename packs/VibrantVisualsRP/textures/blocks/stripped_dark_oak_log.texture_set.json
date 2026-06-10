@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "stripped_dark_oak_log",
     "metalness_emissive_roughness_subsurface": "stripped_dark_oak_log_mers",
-    "heightmap": "stripped_dark_oak_log_heightmap"
+    "normal": "stripped_dark_oak_log_normal_gen"
   }
 }

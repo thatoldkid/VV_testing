@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "door_wood_upper",
     "metalness_emissive_roughness_subsurface": "door_wood_upper_mers",
-    "heightmap": "door_wood_upper_heightmap"
+    "normal": "door_wood_upper_normal_gen"
   }
 }

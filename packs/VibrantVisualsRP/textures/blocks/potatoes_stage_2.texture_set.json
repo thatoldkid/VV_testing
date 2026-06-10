@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "potatoes_stage_2",
     "metalness_emissive_roughness_subsurface": "potatoes_stage_2_mers",
-    "heightmap": "potatoes_stage_2_heightmap"
+    "normal": "potatoes_stage_2_normal_gen"
   }
 }

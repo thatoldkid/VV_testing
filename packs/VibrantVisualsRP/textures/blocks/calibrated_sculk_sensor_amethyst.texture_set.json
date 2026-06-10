@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "calibrated_sculk_sensor_amethyst",
     "metalness_emissive_roughness_subsurface": "calibrated_sculk_sensor_amethyst_mers",
-    "heightmap": "calibrated_sculk_sensor_amethyst_heightmap"
+    "normal": "calibrated_sculk_sensor_amethyst_normal_gen"
   }
 }

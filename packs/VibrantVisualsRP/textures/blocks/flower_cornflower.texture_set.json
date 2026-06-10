@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "flower_cornflower",
     "metalness_emissive_roughness_subsurface": "flower_cornflower_mers",
-    "heightmap": "flower_cornflower_heightmap"
+    "normal": "flower_cornflower_normal_gen"
   }
 }

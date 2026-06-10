@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "birch_trapdoor",
     "metalness_emissive_roughness_subsurface": "birch_trapdoor_mers",
-    "heightmap": "birch_trapdoor_heightmap"
+    "normal": "birch_trapdoor_normal_gen"
   }
 }

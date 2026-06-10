@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "stonecutter2_bottom",
     "metalness_emissive_roughness_subsurface": "stonecutter2_bottom_mers",
-    "heightmap": "stonecutter2_bottom_heightmap"
+    "normal": "stonecutter2_bottom_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "tallgrass",
     "metalness_emissive_roughness_subsurface": "tallgrass_mers",
-    "heightmap": "tallgrass_heightmap"
+    "normal": "tallgrass_normal_gen"
   }
 }

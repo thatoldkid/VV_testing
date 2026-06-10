@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "structure_block_load",
     "metalness_emissive_roughness_subsurface": "structure_block_load_mers",
-    "heightmap": "structure_block_load_heightmap"
+    "normal": "structure_block_load_normal_gen"
   }
 }

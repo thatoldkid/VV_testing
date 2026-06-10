@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "waterlily",
     "metalness_emissive_roughness_subsurface": "waterlily_mers",
-    "heightmap": "waterlily_heightmap"
+    "normal": "waterlily_normal_gen"
   }
 }

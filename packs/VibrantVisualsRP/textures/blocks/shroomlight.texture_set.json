@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "shroomlight",
     "metalness_emissive_roughness_subsurface": "shroomlight_mers",
-    "heightmap": "shroomlight_heightmap"
+    "normal": "shroomlight_normal_gen"
   }
 }

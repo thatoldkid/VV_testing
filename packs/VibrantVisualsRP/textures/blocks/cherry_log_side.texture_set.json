@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "cherry_log_side",
     "metalness_emissive_roughness_subsurface": "cherry_log_side_mers",
-    "heightmap": "cherry_log_side_heightmap"
+    "normal": "cherry_log_side_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "observer_back_lit",
     "metalness_emissive_roughness_subsurface": "observer_back_lit_mers",
-    "heightmap": "observer_back_lit_heightmap"
+    "normal": "observer_back_lit_normal_gen"
   }
 }

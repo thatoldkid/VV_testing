@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "double_plant_paeonia_bottom",
     "metalness_emissive_roughness_subsurface": "double_plant_paeonia_bottom_mers",
-    "heightmap": "double_plant_paeonia_bottom_heightmap"
+    "normal": "double_plant_paeonia_bottom_normal_gen"
   }
 }

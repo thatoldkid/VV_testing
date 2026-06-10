@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "weeping_vines",
     "metalness_emissive_roughness_subsurface": "weeping_vines_mers",
-    "heightmap": "weeping_vines_heightmap"
+    "normal": "weeping_vines_normal_gen"
   }
 }

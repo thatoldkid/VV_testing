@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "leaves_birch_carried",
     "metalness_emissive_roughness_subsurface": "leaves_birch_carried_mers",
-    "heightmap": "leaves_birch_carried_heightmap"
+    "normal": "leaves_birch_carried_normal_gen"
   }
 }

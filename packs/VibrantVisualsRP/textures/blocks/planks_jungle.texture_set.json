@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "planks_jungle",
     "metalness_emissive_roughness_subsurface": "planks_jungle_mers",
-    "heightmap": "planks_jungle_heightmap"
+    "normal": "planks_jungle_normal_gen"
   }
 }

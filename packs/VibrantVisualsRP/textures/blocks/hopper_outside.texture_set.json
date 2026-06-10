@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "hopper_outside",
     "metalness_emissive_roughness_subsurface": "hopper_outside_mers",
-    "heightmap": "hopper_outside_heightmap"
+    "normal": "hopper_outside_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "mushroom_brown",
     "metalness_emissive_roughness_subsurface": "mushroom_brown_mers",
-    "heightmap": "mushroom_brown_heightmap"
+    "normal": "mushroom_brown_normal_gen"
   }
 }

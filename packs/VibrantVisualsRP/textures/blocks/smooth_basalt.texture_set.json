@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "smooth_basalt",
     "metalness_emissive_roughness_subsurface": "smooth_basalt_mers",
-    "heightmap": "smooth_basalt_heightmap"
+    "normal": "smooth_basalt_normal_gen"
   }
 }

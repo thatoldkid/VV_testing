@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "glass_orange",
     "metalness_emissive_roughness_subsurface": "glass_orange_mers",
-    "heightmap": "glass_orange_heightmap"
+    "normal": "glass_orange_normal_gen"
   }
 }

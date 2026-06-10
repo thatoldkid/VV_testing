@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "cobblestone",
     "metalness_emissive_roughness_subsurface": "cobblestone_mers",
-    "heightmap": "cobblestone_heightmap"
+    "normal": "cobblestone_normal_gen"
   }
 }

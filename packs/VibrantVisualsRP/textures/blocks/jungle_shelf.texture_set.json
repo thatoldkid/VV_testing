@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "jungle_shelf",
     "metalness_emissive_roughness_subsurface": "jungle_shelf_mers",
-    "heightmap": "jungle_shelf_heightmap"
+    "normal": "jungle_shelf_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "soul_fire_0",
     "metalness_emissive_roughness_subsurface": "soul_fire_0_mers",
-    "heightmap": "soul_fire_0_heightmap"
+    "normal": "soul_fire_0_normal_gen"
   }
 }

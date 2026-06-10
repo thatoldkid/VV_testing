@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "cocoa_stage_0",
     "metalness_emissive_roughness_subsurface": "cocoa_stage_0_mers",
-    "heightmap": "cocoa_stage_0_heightmap"
+    "normal": "cocoa_stage_0_normal_gen"
   }
 }

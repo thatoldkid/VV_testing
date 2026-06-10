@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "beehive_side",
     "metalness_emissive_roughness_subsurface": "beehive_side_mers",
-    "heightmap": "beehive_side_heightmap"
+    "normal": "beehive_side_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "portal",
     "metalness_emissive_roughness_subsurface": "portal_mers",
-    "heightmap": "portal_heightmap"
+    "normal": "portal_normal_gen"
   }
 }

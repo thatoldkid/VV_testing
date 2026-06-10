@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "beetroots_stage_2",
     "metalness_emissive_roughness_subsurface": "beetroots_stage_2_mers",
-    "heightmap": "beetroots_stage_2_heightmap"
+    "normal": "beetroots_stage_2_normal_gen"
   }
 }

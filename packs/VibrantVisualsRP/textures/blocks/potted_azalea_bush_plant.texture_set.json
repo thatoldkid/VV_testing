@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "potted_azalea_bush_plant",
     "metalness_emissive_roughness_subsurface": "potted_azalea_bush_plant_mers",
-    "heightmap": "potted_azalea_bush_plant_heightmap"
+    "normal": "potted_azalea_bush_plant_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "enchanting_table_side",
     "metalness_emissive_roughness_subsurface": "enchanting_table_side_mers",
-    "heightmap": "enchanting_table_side_heightmap"
+    "normal": "enchanting_table_side_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "nether_gold_ore",
     "metalness_emissive_roughness_subsurface": "nether_gold_ore_mers",
-    "heightmap": "nether_gold_ore_heightmap"
+    "normal": "nether_gold_ore_normal_gen"
   }
 }

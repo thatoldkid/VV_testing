@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "bubble_column_outer_h",
     "metalness_emissive_roughness_subsurface": "bubble_column_outer_h_mers",
-    "heightmap": "bubble_column_outer_h_heightmap"
+    "normal": "bubble_column_outer_h_normal_gen"
   }
 }

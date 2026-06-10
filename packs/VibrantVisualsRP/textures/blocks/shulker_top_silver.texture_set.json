@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "shulker_top_silver",
     "metalness_emissive_roughness_subsurface": "shulker_top_silver_mers",
-    "heightmap": "shulker_top_silver_heightmap"
+    "normal": "shulker_top_silver_normal_gen"
   }
 }

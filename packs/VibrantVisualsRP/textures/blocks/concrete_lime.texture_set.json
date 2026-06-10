@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "concrete_lime",
     "metalness_emissive_roughness_subsurface": "concrete_lime_mers",
-    "heightmap": "concrete_lime_heightmap"
+    "normal": "concrete_lime_normal_gen"
   }
 }

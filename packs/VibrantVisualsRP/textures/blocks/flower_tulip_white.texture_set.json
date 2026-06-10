@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "flower_tulip_white",
     "metalness_emissive_roughness_subsurface": "flower_tulip_white_mers",
-    "heightmap": "flower_tulip_white_heightmap"
+    "normal": "flower_tulip_white_normal_gen"
   }
 }

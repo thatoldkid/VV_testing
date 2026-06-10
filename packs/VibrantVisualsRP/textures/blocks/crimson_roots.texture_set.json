@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "crimson_roots",
     "metalness_emissive_roughness_subsurface": "crimson_roots_mers",
-    "heightmap": "crimson_roots_heightmap"
+    "normal": "crimson_roots_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "door_acacia_lower",
     "metalness_emissive_roughness_subsurface": "door_acacia_lower_mers",
-    "heightmap": "door_acacia_lower_heightmap"
+    "normal": "door_acacia_lower_normal_gen"
   }
 }

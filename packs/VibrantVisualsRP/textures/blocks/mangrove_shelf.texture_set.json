@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "mangrove_shelf",
     "metalness_emissive_roughness_subsurface": "mangrove_shelf_mers",
-    "heightmap": "mangrove_shelf_heightmap"
+    "normal": "mangrove_shelf_normal_gen"
   }
 }

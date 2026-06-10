@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "pale_oak_leaves",
     "metalness_emissive_roughness_subsurface": "pale_oak_leaves_mers",
-    "heightmap": "pale_oak_leaves_heightmap"
+    "normal": "pale_oak_leaves_normal_gen"
   }
 }

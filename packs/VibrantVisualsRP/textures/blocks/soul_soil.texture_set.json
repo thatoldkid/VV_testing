@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "soul_soil",
     "metalness_emissive_roughness_subsurface": "soul_soil_mers",
-    "heightmap": "soul_soil_heightmap"
+    "normal": "soul_soil_normal_gen"
   }
 }

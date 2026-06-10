@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "lectern_sides",
     "metalness_emissive_roughness_subsurface": "lectern_sides_mers",
-    "heightmap": "lectern_sides_heightmap"
+    "normal": "lectern_sides_normal_gen"
   }
 }

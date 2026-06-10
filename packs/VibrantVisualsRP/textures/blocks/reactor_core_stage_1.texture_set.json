@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "reactor_core_stage_1",
     "metalness_emissive_roughness_subsurface": "reactor_core_stage_1_mers",
-    "heightmap": "reactor_core_stage_1_heightmap"
+    "normal": "reactor_core_stage_1_normal_gen"
   }
 }

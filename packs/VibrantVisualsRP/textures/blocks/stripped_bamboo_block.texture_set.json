@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "stripped_bamboo_block",
     "metalness_emissive_roughness_subsurface": "stripped_bamboo_block_mers",
-    "heightmap": "stripped_bamboo_block_heightmap"
+    "normal": "stripped_bamboo_block_normal_gen"
   }
 }

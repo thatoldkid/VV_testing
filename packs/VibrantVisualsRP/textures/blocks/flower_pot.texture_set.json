@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "flower_pot",
     "metalness_emissive_roughness_subsurface": "flower_pot_mers",
-    "heightmap": "flower_pot_heightmap"
+    "normal": "flower_pot_normal_gen"
   }
 }

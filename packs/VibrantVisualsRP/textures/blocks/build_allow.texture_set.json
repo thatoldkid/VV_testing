@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "build_allow",
     "metalness_emissive_roughness_subsurface": "build_allow_mers",
-    "heightmap": "build_allow_heightmap"
+    "normal": "build_allow_normal_gen"
   }
 }

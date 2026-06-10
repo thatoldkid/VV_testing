@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "slime",
     "metalness_emissive_roughness_subsurface": "slime_mers",
-    "heightmap": "slime_heightmap"
+    "normal": "slime_normal_gen"
   }
 }

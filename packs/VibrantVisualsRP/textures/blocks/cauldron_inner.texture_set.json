@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "cauldron_inner",
     "metalness_emissive_roughness_subsurface": "cauldron_inner_mers",
-    "heightmap": "cauldron_inner_heightmap"
+    "normal": "cauldron_inner_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "small_dripleaf_stem_bottom",
     "metalness_emissive_roughness_subsurface": "small_dripleaf_stem_bottom_mers",
-    "heightmap": "small_dripleaf_stem_bottom_heightmap"
+    "normal": "small_dripleaf_stem_bottom_normal_gen"
   }
 }

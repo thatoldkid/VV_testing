@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "kelp_top_bulb",
     "metalness_emissive_roughness_subsurface": "kelp_top_bulb_mers",
-    "heightmap": "kelp_top_bulb_heightmap"
+    "normal": "kelp_top_bulb_normal_gen"
   }
 }

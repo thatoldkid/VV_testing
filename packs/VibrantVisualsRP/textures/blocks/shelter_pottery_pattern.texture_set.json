@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "shelter_pottery_pattern",
     "metalness_emissive_roughness_subsurface": "shelter_pottery_pattern_mers",
-    "heightmap": "shelter_pottery_pattern_heightmap"
+    "normal": "shelter_pottery_pattern_normal_gen"
   }
 }

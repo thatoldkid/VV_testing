@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "nether_sprouts",
     "metalness_emissive_roughness_subsurface": "nether_sprouts_mers",
-    "heightmap": "nether_sprouts_heightmap"
+    "normal": "nether_sprouts_normal_gen"
   }
 }

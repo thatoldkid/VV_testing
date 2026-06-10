@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "stonecutter2_saw",
     "metalness_emissive_roughness_subsurface": "stonecutter2_saw_mers",
-    "heightmap": "stonecutter2_saw_heightmap"
+    "normal": "stonecutter2_saw_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "sapling_acacia",
     "metalness_emissive_roughness_subsurface": "sapling_acacia_mers",
-    "heightmap": "sapling_acacia_heightmap"
+    "normal": "sapling_acacia_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "bedrock",
     "metalness_emissive_roughness_subsurface": "bedrock_mers",
-    "heightmap": "bedrock_heightmap"
+    "normal": "bedrock_normal_gen"
   }
 }

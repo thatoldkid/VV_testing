@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "reeds",
     "metalness_emissive_roughness_subsurface": "reeds_mers",
-    "heightmap": "reeds_heightmap"
+    "normal": "reeds_normal_gen"
   }
 }

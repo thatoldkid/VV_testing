@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "cauldron_side",
     "metalness_emissive_roughness_subsurface": "cauldron_side_mers",
-    "heightmap": "cauldron_side_heightmap"
+    "normal": "cauldron_side_normal_gen"
   }
 }

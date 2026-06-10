@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "soul_torch",
     "metalness_emissive_roughness_subsurface": "soul_torch_mers",
-    "heightmap": "soul_torch_heightmap"
+    "normal": "soul_torch_normal_gen"
   }
 }

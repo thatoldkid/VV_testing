@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "stripped_spruce_log",
     "metalness_emissive_roughness_subsurface": "stripped_spruce_log_mers",
-    "heightmap": "stripped_spruce_log_heightmap"
+    "normal": "stripped_spruce_log_normal_gen"
   }
 }

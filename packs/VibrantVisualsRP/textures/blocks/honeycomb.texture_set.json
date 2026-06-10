@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "honeycomb",
     "metalness_emissive_roughness_subsurface": "honeycomb_mers",
-    "heightmap": "honeycomb_heightmap"
+    "normal": "honeycomb_normal_gen"
   }
 }

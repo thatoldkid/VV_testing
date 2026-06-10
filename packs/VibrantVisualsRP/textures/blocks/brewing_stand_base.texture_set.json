@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "brewing_stand_base",
     "metalness_emissive_roughness_subsurface": "brewing_stand_base_mers",
-    "heightmap": "brewing_stand_base_heightmap"
+    "normal": "brewing_stand_base_normal_gen"
   }
 }

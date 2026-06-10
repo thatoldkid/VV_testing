@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "sculk",
     "metalness_emissive_roughness_subsurface": "sculk_mers",
-    "heightmap": "sculk_heightmap"
+    "normal": "sculk_normal_gen"
   }
 }

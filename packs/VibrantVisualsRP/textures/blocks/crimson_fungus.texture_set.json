@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "crimson_fungus",
     "metalness_emissive_roughness_subsurface": "crimson_fungus_mers",
-    "heightmap": "crimson_fungus_heightmap"
+    "normal": "crimson_fungus_normal_gen"
   }
 }

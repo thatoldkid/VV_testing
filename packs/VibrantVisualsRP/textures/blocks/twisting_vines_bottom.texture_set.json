@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "twisting_vines_bottom",
     "metalness_emissive_roughness_subsurface": "twisting_vines_bottom_mers",
-    "heightmap": "twisting_vines_bottom_heightmap"
+    "normal": "twisting_vines_bottom_normal_gen"
   }
 }

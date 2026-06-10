@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "pointed_dripstone_up_merge",
     "metalness_emissive_roughness_subsurface": "pointed_dripstone_up_merge_mers",
-    "heightmap": "pointed_dripstone_up_merge_heightmap"
+    "normal": "pointed_dripstone_up_merge_normal_gen"
   }
 }

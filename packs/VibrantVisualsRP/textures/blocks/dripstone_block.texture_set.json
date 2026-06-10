@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "dripstone_block",
     "metalness_emissive_roughness_subsurface": "dripstone_block_mers",
-    "heightmap": "dripstone_block_heightmap"
+    "normal": "dripstone_block_normal_gen"
   }
 }

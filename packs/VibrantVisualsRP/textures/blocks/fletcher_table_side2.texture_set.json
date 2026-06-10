@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "fletcher_table_side2",
     "metalness_emissive_roughness_subsurface": "fletcher_table_side2_mers",
-    "heightmap": "fletcher_table_side2_heightmap"
+    "normal": "fletcher_table_side2_normal_gen"
   }
 }

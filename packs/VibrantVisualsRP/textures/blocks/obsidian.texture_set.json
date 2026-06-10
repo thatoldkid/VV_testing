@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "obsidian",
     "metalness_emissive_roughness_subsurface": "obsidian_mers",
-    "heightmap": "obsidian_heightmap"
+    "normal": "obsidian_normal_gen"
   }
 }

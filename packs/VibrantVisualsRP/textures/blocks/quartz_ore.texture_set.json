@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "quartz_ore",
     "metalness_emissive_roughness_subsurface": "quartz_ore_mers",
-    "heightmap": "quartz_ore_heightmap"
+    "normal": "quartz_ore_normal_gen"
   }
 }

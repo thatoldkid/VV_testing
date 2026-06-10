@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "purpur_pillar",
     "metalness_emissive_roughness_subsurface": "purpur_pillar_mers",
-    "heightmap": "purpur_pillar_heightmap"
+    "normal": "purpur_pillar_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "fire_1",
     "metalness_emissive_roughness_subsurface": "fire_1_mers",
-    "heightmap": "fire_1_heightmap"
+    "normal": "fire_1_normal_gen"
   }
 }

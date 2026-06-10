@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "copper_chest_inventory_side",
     "metalness_emissive_roughness_subsurface": "copper_chest_inventory_side_mers",
-    "heightmap": "copper_chest_inventory_side_heightmap"
+    "normal": "copper_chest_inventory_side_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "golden_dandelion",
     "metalness_emissive_roughness_subsurface": "golden_dandelion_mers",
-    "heightmap": "golden_dandelion_heightmap"
+    "normal": "golden_dandelion_normal_gen"
   }
 }

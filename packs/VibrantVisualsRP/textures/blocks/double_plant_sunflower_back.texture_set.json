@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "double_plant_sunflower_back",
     "metalness_emissive_roughness_subsurface": "double_plant_sunflower_back_mers",
-    "heightmap": "double_plant_sunflower_back_heightmap"
+    "normal": "double_plant_sunflower_back_normal_gen"
   }
 }

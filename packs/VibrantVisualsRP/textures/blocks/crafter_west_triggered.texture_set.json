@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "crafter_west_triggered",
     "metalness_emissive_roughness_subsurface": "crafter_west_triggered_mers",
-    "heightmap": "crafter_west_triggered_heightmap"
+    "normal": "crafter_west_triggered_normal_gen"
   }
 }

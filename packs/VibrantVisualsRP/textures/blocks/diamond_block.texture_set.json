@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "diamond_block",
     "metalness_emissive_roughness_subsurface": "diamond_block_mers",
-    "heightmap": "diamond_block_heightmap"
+    "normal": "diamond_block_normal_gen"
   }
 }

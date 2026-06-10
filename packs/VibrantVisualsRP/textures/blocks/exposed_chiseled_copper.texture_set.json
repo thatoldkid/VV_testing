@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "exposed_chiseled_copper",
     "metalness_emissive_roughness_subsurface": "exposed_chiseled_copper_mers",
-    "heightmap": "exposed_chiseled_copper_heightmap"
+    "normal": "exposed_chiseled_copper_normal_gen"
   }
 }

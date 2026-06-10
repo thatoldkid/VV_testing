@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "bamboo_shelf",
     "metalness_emissive_roughness_subsurface": "bamboo_shelf_mers",
-    "heightmap": "bamboo_shelf_heightmap"
+    "normal": "bamboo_shelf_normal_gen"
   }
 }

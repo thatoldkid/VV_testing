@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "leaf_litter",
     "metalness_emissive_roughness_subsurface": "leaf_litter_mers",
-    "heightmap": "leaf_litter_heightmap"
+    "normal": "leaf_litter_normal_gen"
   }
 }

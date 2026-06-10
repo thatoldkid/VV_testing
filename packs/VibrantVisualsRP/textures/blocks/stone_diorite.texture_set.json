@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "stone_diorite",
     "metalness_emissive_roughness_subsurface": "stone_diorite_mers",
-    "heightmap": "stone_diorite_heightmap"
+    "normal": "stone_diorite_normal_gen"
   }
 }

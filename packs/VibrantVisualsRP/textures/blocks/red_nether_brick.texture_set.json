@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "red_nether_brick",
     "metalness_emissive_roughness_subsurface": "red_nether_brick_mers",
-    "heightmap": "red_nether_brick_heightmap"
+    "normal": "red_nether_brick_normal_gen"
   }
 }

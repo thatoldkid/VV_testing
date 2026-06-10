@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "structure_void",
     "metalness_emissive_roughness_subsurface": "structure_void_mers",
-    "heightmap": "structure_void_heightmap"
+    "normal": "structure_void_normal_gen"
   }
 }

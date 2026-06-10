@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "cactus_bottom",
     "metalness_emissive_roughness_subsurface": "cactus_bottom_mers",
-    "heightmap": "cactus_bottom_heightmap"
+    "normal": "cactus_bottom_normal_gen"
   }
 }

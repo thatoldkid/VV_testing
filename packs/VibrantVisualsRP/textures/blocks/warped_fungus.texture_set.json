@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "warped_fungus",
     "metalness_emissive_roughness_subsurface": "warped_fungus_mers",
-    "heightmap": "warped_fungus_heightmap"
+    "normal": "warped_fungus_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "flower_rose_blue",
     "metalness_emissive_roughness_subsurface": "flower_rose_blue_mers",
-    "heightmap": "flower_rose_blue_heightmap"
+    "normal": "flower_rose_blue_normal_gen"
   }
 }

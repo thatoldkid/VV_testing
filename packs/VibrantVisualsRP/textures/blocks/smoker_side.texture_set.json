@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "smoker_side",
     "metalness_emissive_roughness_subsurface": "smoker_side_mers",
-    "heightmap": "smoker_side_heightmap"
+    "normal": "smoker_side_normal_gen"
   }
 }

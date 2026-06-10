@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "honey_side",
     "metalness_emissive_roughness_subsurface": "honey_side_mers",
-    "heightmap": "honey_side_heightmap"
+    "normal": "honey_side_normal_gen"
   }
 }

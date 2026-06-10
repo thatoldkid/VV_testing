@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "warped_roots_pot",
     "metalness_emissive_roughness_subsurface": "warped_roots_pot_mers",
-    "heightmap": "warped_roots_pot_heightmap"
+    "normal": "warped_roots_pot_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "cherry_shelf",
     "metalness_emissive_roughness_subsurface": "cherry_shelf_mers",
-    "heightmap": "cherry_shelf_heightmap"
+    "normal": "cherry_shelf_normal_gen"
   }
 }

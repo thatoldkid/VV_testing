@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "scaffolding_bottom",
     "metalness_emissive_roughness_subsurface": "scaffolding_bottom_mers",
-    "heightmap": "scaffolding_bottom_heightmap"
+    "normal": "scaffolding_bottom_normal_gen"
   }
 }

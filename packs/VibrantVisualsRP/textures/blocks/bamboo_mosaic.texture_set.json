@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "bamboo_mosaic",
     "metalness_emissive_roughness_subsurface": "bamboo_mosaic_mers",
-    "heightmap": "bamboo_mosaic_heightmap"
+    "normal": "bamboo_mosaic_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "flower_paeonia",
     "metalness_emissive_roughness_subsurface": "flower_paeonia_mers",
-    "heightmap": "flower_paeonia_heightmap"
+    "normal": "flower_paeonia_normal_gen"
   }
 }

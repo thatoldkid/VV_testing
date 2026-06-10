@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "mushroom_block_skin_red",
     "metalness_emissive_roughness_subsurface": "mushroom_block_skin_red_mers",
-    "heightmap": "mushroom_block_skin_red_heightmap"
+    "normal": "mushroom_block_skin_red_normal_gen"
   }
 }

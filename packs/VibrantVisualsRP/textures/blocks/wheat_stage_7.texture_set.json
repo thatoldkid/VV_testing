@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "wheat_stage_7",
     "metalness_emissive_roughness_subsurface": "wheat_stage_7_mers",
-    "heightmap": "wheat_stage_7_heightmap"
+    "normal": "wheat_stage_7_normal_gen"
   }
 }

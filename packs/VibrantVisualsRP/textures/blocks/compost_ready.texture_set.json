@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "compost_ready",
     "metalness_emissive_roughness_subsurface": "compost_ready_mers",
-    "heightmap": "compost_ready_heightmap"
+    "normal": "compost_ready_normal_gen"
   }
 }

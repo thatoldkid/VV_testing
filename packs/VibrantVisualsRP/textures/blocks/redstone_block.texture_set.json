@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "redstone_block",
     "metalness_emissive_roughness_subsurface": "redstone_block_mers",
-    "heightmap": "redstone_block_heightmap"
+    "normal": "redstone_block_normal_gen"
   }
 }

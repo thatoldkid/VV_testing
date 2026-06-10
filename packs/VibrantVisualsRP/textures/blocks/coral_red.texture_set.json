@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "coral_red",
     "metalness_emissive_roughness_subsurface": "coral_red_mers",
-    "heightmap": "coral_red_heightmap"
+    "normal": "coral_red_normal_gen"
   }
 }

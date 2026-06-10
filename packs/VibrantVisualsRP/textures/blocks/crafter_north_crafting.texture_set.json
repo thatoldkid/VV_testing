@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "crafter_north_crafting",
     "metalness_emissive_roughness_subsurface": "crafter_north_crafting_mers",
-    "heightmap": "crafter_north_crafting_heightmap"
+    "normal": "crafter_north_crafting_normal_gen"
   }
 }

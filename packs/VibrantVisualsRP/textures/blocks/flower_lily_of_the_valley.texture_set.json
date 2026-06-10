@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "flower_lily_of_the_valley",
     "metalness_emissive_roughness_subsurface": "flower_lily_of_the_valley_mers",
-    "heightmap": "flower_lily_of_the_valley_heightmap"
+    "normal": "flower_lily_of_the_valley_normal_gen"
   }
 }

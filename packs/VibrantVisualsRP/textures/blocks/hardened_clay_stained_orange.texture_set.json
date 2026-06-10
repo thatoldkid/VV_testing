@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "hardened_clay_stained_orange",
     "metalness_emissive_roughness_subsurface": "hardened_clay_stained_orange_mers",
-    "heightmap": "hardened_clay_stained_orange_heightmap"
+    "normal": "hardened_clay_stained_orange_normal_gen"
   }
 }

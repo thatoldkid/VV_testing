@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "grindstone_pivot",
     "metalness_emissive_roughness_subsurface": "grindstone_pivot_mers",
-    "heightmap": "grindstone_pivot_heightmap"
+    "normal": "grindstone_pivot_normal_gen"
   }
 }

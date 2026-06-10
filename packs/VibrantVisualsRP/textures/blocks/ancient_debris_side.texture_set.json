@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "ancient_debris_side",
     "metalness_emissive_roughness_subsurface": "ancient_debris_side_mers",
-    "heightmap": "ancient_debris_side_heightmap"
+    "normal": "ancient_debris_side_normal_gen"
   }
 }

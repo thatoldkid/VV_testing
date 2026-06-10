@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "crimson_nylium_side",
     "metalness_emissive_roughness_subsurface": "crimson_nylium_side_mers",
-    "heightmap": "crimson_nylium_side_heightmap"
+    "normal": "crimson_nylium_side_normal_gen"
   }
 }

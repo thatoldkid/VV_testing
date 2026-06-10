@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "vault_bottom",
     "metalness_emissive_roughness_subsurface": "vault_bottom_mers",
-    "heightmap": "vault_bottom_heightmap"
+    "normal": "vault_bottom_normal_gen"
   }
 }

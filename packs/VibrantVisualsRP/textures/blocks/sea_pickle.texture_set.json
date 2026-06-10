@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "sea_pickle",
     "metalness_emissive_roughness_subsurface": "sea_pickle_mers",
-    "heightmap": "sea_pickle_heightmap"
+    "normal": "sea_pickle_normal_gen"
   }
 }

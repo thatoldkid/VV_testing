@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "conduit_cage",
     "metalness_emissive_roughness_subsurface": "conduit_cage_mers",
-    "heightmap": "conduit_cage_heightmap"
+    "normal": "conduit_cage_normal_gen"
   }
 }

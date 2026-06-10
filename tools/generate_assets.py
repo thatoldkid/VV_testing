@@ -8,10 +8,17 @@ each one:
     subsurface channels but adding per-pixel roughness variation derived from
     the color texture's luminance (dark crevices read rougher, bright facets
     smoother),
-  - derives a bump/heightmap from the color texture's luminance so surfaces
-    get parallax depth (skipped for the four fluid sets that ship a vanilla
-    normal map, since heightmap and normal are mutually exclusive),
+  - generates a tangent-space normal (bump) map from the color texture's
+    luminance using a tiling Sobel filter, with bump strength scaled by the
+    block's average roughness so polished surfaces stay near-flat while rough
+    surfaces get pronounced depth (the four fluid sets that ship a vanilla
+    normal map keep theirs),
   - writes the overriding *.texture_set.json.
+
+Normal maps are used instead of heightmaps: the Vibrant Visuals docs note
+heightmaps are the less capable path ("not as efficient and cannot represent
+as many textures"), and in practice their converted bump contribution is far
+weaker than a real normal map.
 
 Also regenerates textures_list.json, both pack icons, and the GameTest
 platform .mcstructure.
@@ -37,6 +44,10 @@ BP_ROOT = os.path.join(REPO, "packs", "VibrantVisualsBP")
 
 # How strongly luminance variance perturbs the vanilla roughness channel.
 ROUGHNESS_DETAIL = 0.30
+# Bump strength range: flat-ish for mirror-smooth surfaces up to strong relief
+# for fully rough ones (scaled by each block's average vanilla roughness).
+NORMAL_STRENGTH_MIN = 1.0
+NORMAL_STRENGTH_MAX = 5.0
 MERS_KEYS = ("metalness_emissive_roughness_subsurface", "metalness_emissive_roughness")
 
 
@@ -89,21 +100,40 @@ def build_detail_mers(color_img, mers_img):
     return out, rough_total / (w * h)
 
 
-def build_heightmap(color_img, avg_roughness):
-    """Luminance heightmap; rough surfaces get deeper bumps than smooth ones."""
+def build_normal_map(color_img, avg_roughness):
+    """Tangent-space normal map from luminance via a tiling Sobel filter.
+
+    Brighter pixels are treated as raised. Strength scales with the block's
+    average roughness so glass/polished metal stay near-flat while stone,
+    bark, and bricks get strong relief. Edges wrap, since block textures tile.
+    """
     w, h = color_img.size
     src = color_img.load()
-    out = Image.new("L", (w, h))
-    dst = out.load()
     vals = [[luminance(src[x, y]) for x in range(w)] for y in range(h)]
     lo = min(min(r) for r in vals)
     hi = max(max(r) for r in vals)
     span = max(hi - lo, 1.0)
-    half = 12 + 38 * (avg_roughness / 255.0)
+    height = [[(vals[y][x] - lo) / span for x in range(w)] for y in range(h)]
+    strength = NORMAL_STRENGTH_MIN + (NORMAL_STRENGTH_MAX - NORMAL_STRENGTH_MIN) * (
+        avg_roughness / 255.0)
+
+    out = Image.new("RGB", (w, h))
+    dst = out.load()
     for y in range(h):
+        ym, yp = (y - 1) % h, (y + 1) % h
         for x in range(w):
-            t = (vals[y][x] - lo) / span
-            dst[x, y] = int(128 - half + t * half * 2)
+            xm, xp = (x - 1) % w, (x + 1) % w
+            gx = (height[ym][xp] + 2 * height[y][xp] + height[yp][xp]) - (
+                height[ym][xm] + 2 * height[y][xm] + height[yp][xm])
+            gy = (height[yp][xm] + 2 * height[yp][x] + height[yp][xp]) - (
+                height[ym][xm] + 2 * height[ym][x] + height[ym][xp])
+            nx, ny, nz = -gx * strength, -gy * strength, 1.0
+            inv = 1.0 / math.sqrt(nx * nx + ny * ny + nz * nz)
+            dst[x, y] = (
+                int((nx * inv * 0.5 + 0.5) * 255),
+                int((ny * inv * 0.5 + 0.5) * 255),
+                int((nz * inv * 0.5 + 0.5) * 255),
+            )
     return out
 
 
@@ -143,15 +173,15 @@ def generate_textures(vanilla_dir):
             },
         }
         if "normal" in ts:
-            # Heightmap and normal are mutually exclusive; keep vanilla's normal.
+            # Fluids ship a hand-authored vanilla normal map; keep it.
             out_set["minecraft:texture_set"]["normal"] = ts["normal"]
             normals += 1
         else:
-            hm_name = f"{base}_heightmap"
-            build_heightmap(color_img, avg_rough).save(
-                os.path.join(RP_BLOCKS, f"{hm_name}.png"))
-            out_set["minecraft:texture_set"]["heightmap"] = hm_name
-            listed.add(f"textures/blocks/{hm_name}")
+            nm_name = f"{base}_normal_gen"
+            build_normal_map(color_img, avg_rough).save(
+                os.path.join(RP_BLOCKS, f"{nm_name}.png"))
+            out_set["minecraft:texture_set"]["normal"] = nm_name
+            listed.add(f"textures/blocks/{nm_name}")
         with open(os.path.join(RP_BLOCKS, f"{base}.texture_set.json"), "w") as f:
             json.dump(out_set, f, indent=2)
             f.write("\n")

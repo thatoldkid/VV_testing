@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "tnt_bottom",
     "metalness_emissive_roughness_subsurface": "tnt_bottom_mers",
-    "heightmap": "tnt_bottom_heightmap"
+    "normal": "tnt_bottom_normal_gen"
   }
 }

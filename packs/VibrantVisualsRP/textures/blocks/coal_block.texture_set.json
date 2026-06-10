@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "coal_block",
     "metalness_emissive_roughness_subsurface": "coal_block_mers",
-    "heightmap": "coal_block_heightmap"
+    "normal": "coal_block_normal_gen"
   }
 }

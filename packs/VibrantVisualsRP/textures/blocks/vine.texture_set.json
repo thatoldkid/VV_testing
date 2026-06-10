@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "vine",
     "metalness_emissive_roughness_subsurface": "vine_mers",
-    "heightmap": "vine_heightmap"
+    "normal": "vine_normal_gen"
   }
 }

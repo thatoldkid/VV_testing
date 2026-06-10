@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "turtle_egg_slightly_cracked",
     "metalness_emissive_roughness_subsurface": "turtle_egg_slightly_cracked_mers",
-    "heightmap": "turtle_egg_slightly_cracked_heightmap"
+    "normal": "turtle_egg_slightly_cracked_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "barrier",
     "metalness_emissive_roughness_subsurface": "barrier_mers",
-    "heightmap": "barrier_heightmap"
+    "normal": "barrier_normal_gen"
   }
 }

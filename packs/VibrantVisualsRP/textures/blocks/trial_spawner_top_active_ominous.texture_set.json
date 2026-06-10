@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "trial_spawner_top_active_ominous",
     "metalness_emissive_roughness_subsurface": "trial_spawner_top_active_ominous_mers",
-    "heightmap": "trial_spawner_top_active_ominous_heightmap"
+    "normal": "trial_spawner_top_active_ominous_normal_gen"
   }
 }

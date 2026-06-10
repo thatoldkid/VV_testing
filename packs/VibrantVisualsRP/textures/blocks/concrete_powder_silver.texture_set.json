@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "concrete_powder_silver",
     "metalness_emissive_roughness_subsurface": "concrete_powder_silver_mers",
-    "heightmap": "concrete_powder_silver_heightmap"
+    "normal": "concrete_powder_silver_normal_gen"
   }
 }

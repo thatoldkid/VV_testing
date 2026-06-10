@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "muddy_mangrove_roots_top",
     "metalness_emissive_roughness_subsurface": "muddy_mangrove_roots_top_mers",
-    "heightmap": "muddy_mangrove_roots_top_heightmap"
+    "normal": "muddy_mangrove_roots_top_normal_gen"
   }
 }

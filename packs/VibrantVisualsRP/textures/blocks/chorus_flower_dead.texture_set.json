@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "chorus_flower_dead",
     "metalness_emissive_roughness_subsurface": "chorus_flower_dead_mers",
-    "heightmap": "chorus_flower_dead_heightmap"
+    "normal": "chorus_flower_dead_normal_gen"
   }
 }

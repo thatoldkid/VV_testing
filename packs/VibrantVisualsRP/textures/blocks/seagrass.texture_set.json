@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "seagrass",
     "metalness_emissive_roughness_subsurface": "seagrass_mers",
-    "heightmap": "seagrass_heightmap"
+    "normal": "seagrass_normal_gen"
   }
 }

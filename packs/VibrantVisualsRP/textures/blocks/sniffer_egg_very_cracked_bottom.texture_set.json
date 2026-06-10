@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "sniffer_egg_very_cracked_bottom",
     "metalness_emissive_roughness_subsurface": "sniffer_egg_very_cracked_bottom_mers",
-    "heightmap": "sniffer_egg_very_cracked_bottom_heightmap"
+    "normal": "sniffer_egg_very_cracked_bottom_normal_gen"
   }
 }

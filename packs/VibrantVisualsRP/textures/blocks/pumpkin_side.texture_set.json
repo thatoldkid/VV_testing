@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "pumpkin_side",
     "metalness_emissive_roughness_subsurface": "pumpkin_side_mers",
-    "heightmap": "pumpkin_side_heightmap"
+    "normal": "pumpkin_side_normal_gen"
   }
 }

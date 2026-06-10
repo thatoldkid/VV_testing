@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "big_dripleaf_side2",
     "metalness_emissive_roughness_subsurface": "big_dripleaf_side2_mers",
-    "heightmap": "big_dripleaf_side2_heightmap"
+    "normal": "big_dripleaf_side2_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "sandstone_carved",
     "metalness_emissive_roughness_subsurface": "sandstone_carved_mers",
-    "heightmap": "sandstone_carved_heightmap"
+    "normal": "sandstone_carved_normal_gen"
   }
 }

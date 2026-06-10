@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "reinforced_deepslate_side",
     "metalness_emissive_roughness_subsurface": "reinforced_deepslate_side_mers",
-    "heightmap": "reinforced_deepslate_side_heightmap"
+    "normal": "reinforced_deepslate_side_normal_gen"
   }
 }

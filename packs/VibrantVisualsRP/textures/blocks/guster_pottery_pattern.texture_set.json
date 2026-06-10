@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "guster_pottery_pattern",
     "metalness_emissive_roughness_subsurface": "guster_pottery_pattern_mers",
-    "heightmap": "guster_pottery_pattern_heightmap"
+    "normal": "guster_pottery_pattern_normal_gen"
   }
 }

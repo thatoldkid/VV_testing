@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "pointed_dripstone_down_tip",
     "metalness_emissive_roughness_subsurface": "pointed_dripstone_down_tip_mers",
-    "heightmap": "pointed_dripstone_down_tip_heightmap"
+    "normal": "pointed_dripstone_down_tip_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "moss_block",
     "metalness_emissive_roughness_subsurface": "moss_block_mers",
-    "heightmap": "moss_block_heightmap"
+    "normal": "moss_block_normal_gen"
   }
 }

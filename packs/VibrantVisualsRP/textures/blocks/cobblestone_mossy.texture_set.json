@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "cobblestone_mossy",
     "metalness_emissive_roughness_subsurface": "cobblestone_mossy_mers",
-    "heightmap": "cobblestone_mossy_heightmap"
+    "normal": "cobblestone_mossy_normal_gen"
   }
 }

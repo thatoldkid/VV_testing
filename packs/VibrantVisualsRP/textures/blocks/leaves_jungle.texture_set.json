@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "leaves_jungle",
     "metalness_emissive_roughness_subsurface": "leaves_jungle_mers",
-    "heightmap": "leaves_jungle_heightmap"
+    "normal": "leaves_jungle_normal_gen"
   }
 }

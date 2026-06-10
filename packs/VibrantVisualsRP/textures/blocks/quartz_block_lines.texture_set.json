@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "quartz_block_lines",
     "metalness_emissive_roughness_subsurface": "quartz_block_lines_mers",
-    "heightmap": "quartz_block_lines_heightmap"
+    "normal": "quartz_block_lines_normal_gen"
   }
 }

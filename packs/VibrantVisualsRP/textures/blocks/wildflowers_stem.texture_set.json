@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "wildflowers_stem",
     "metalness_emissive_roughness_subsurface": "wildflowers_stem_mers",
-    "heightmap": "wildflowers_stem_heightmap"
+    "normal": "wildflowers_stem_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "exposed_copper_chain2",
     "metalness_emissive_roughness_subsurface": "exposed_copper_chain2_mers",
-    "heightmap": "exposed_copper_chain2_heightmap"
+    "normal": "exposed_copper_chain2_normal_gen"
   }
 }

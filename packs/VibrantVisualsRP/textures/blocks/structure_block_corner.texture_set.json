@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "structure_block_corner",
     "metalness_emissive_roughness_subsurface": "structure_block_corner_mers",
-    "heightmap": "structure_block_corner_heightmap"
+    "normal": "structure_block_corner_normal_gen"
   }
 }

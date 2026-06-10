@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "campfire",
     "metalness_emissive_roughness_subsurface": "campfire_mers",
-    "heightmap": "campfire_heightmap"
+    "normal": "campfire_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "cave_vines_body",
     "metalness_emissive_roughness_subsurface": "cave_vines_body_mers",
-    "heightmap": "cave_vines_body_heightmap"
+    "normal": "cave_vines_body_normal_gen"
   }
 }

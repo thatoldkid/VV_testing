@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "cartography_table_side1",
     "metalness_emissive_roughness_subsurface": "cartography_table_side1_mers",
-    "heightmap": "cartography_table_side1_heightmap"
+    "normal": "cartography_table_side1_normal_gen"
   }
 }

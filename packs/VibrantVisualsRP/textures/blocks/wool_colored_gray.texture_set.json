@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "wool_colored_gray",
     "metalness_emissive_roughness_subsurface": "wool_colored_gray_mers",
-    "heightmap": "wool_colored_gray_heightmap"
+    "normal": "wool_colored_gray_normal_gen"
   }
 }

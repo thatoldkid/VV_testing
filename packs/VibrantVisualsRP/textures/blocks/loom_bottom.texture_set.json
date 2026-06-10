@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "loom_bottom",
     "metalness_emissive_roughness_subsurface": "loom_bottom_mers",
-    "heightmap": "loom_bottom_heightmap"
+    "normal": "loom_bottom_normal_gen"
   }
 }

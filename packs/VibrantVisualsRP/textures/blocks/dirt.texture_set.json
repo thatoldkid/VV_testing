@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "dirt",
     "metalness_emissive_roughness_subsurface": "dirt_mers",
-    "heightmap": "dirt_heightmap"
+    "normal": "dirt_normal_gen"
   }
 }

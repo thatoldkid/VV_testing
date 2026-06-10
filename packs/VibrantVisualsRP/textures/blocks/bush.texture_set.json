@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "bush",
     "metalness_emissive_roughness_subsurface": "bush_mers",
-    "heightmap": "bush_heightmap"
+    "normal": "bush_normal_gen"
   }
 }

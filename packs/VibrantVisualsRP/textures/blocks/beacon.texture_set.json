@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "beacon",
     "metalness_emissive_roughness_subsurface": "beacon_mers",
-    "heightmap": "beacon_heightmap"
+    "normal": "beacon_normal_gen"
   }
 }

@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "conduit_base",
     "metalness_emissive_roughness_subsurface": "conduit_base_mers",
-    "heightmap": "conduit_base_heightmap"
+    "normal": "conduit_base_normal_gen"
   }
 }

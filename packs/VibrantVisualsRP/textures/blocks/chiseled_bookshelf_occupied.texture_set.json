@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "chiseled_bookshelf_occupied",
     "metalness_emissive_roughness_subsurface": "chiseled_bookshelf_occupied_mers",
-    "heightmap": "chiseled_bookshelf_occupied_heightmap"
+    "normal": "chiseled_bookshelf_occupied_normal_gen"
   }
 }

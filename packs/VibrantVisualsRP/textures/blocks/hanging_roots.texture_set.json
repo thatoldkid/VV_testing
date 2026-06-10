@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "hanging_roots",
     "metalness_emissive_roughness_subsurface": "hanging_roots_mers",
-    "heightmap": "hanging_roots_heightmap"
+    "normal": "hanging_roots_normal_gen"
   }
 }

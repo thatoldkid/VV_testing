@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "planks_birch",
     "metalness_emissive_roughness_subsurface": "planks_birch_mers",
-    "heightmap": "planks_birch_heightmap"
+    "normal": "planks_birch_normal_gen"
   }
 }

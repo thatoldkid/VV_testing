@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "firefly_bush",
     "metalness_emissive_roughness_subsurface": "firefly_bush_mers",
-    "heightmap": "firefly_bush_heightmap"
+    "normal": "firefly_bush_normal_gen"
   }
 }

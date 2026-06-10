@@ -3,6 +3,6 @@
   "minecraft:texture_set": {
     "color": "ice",
     "metalness_emissive_roughness_subsurface": "ice_mers",
-    "heightmap": "ice_heightmap"
+    "normal": "ice_normal_gen"
   }
 }

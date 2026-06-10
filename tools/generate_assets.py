@@ -32,6 +32,7 @@ import glob
 import json
 import math
 import os
+import shutil
 import struct
 
 from PIL import Image, ImageDraw
@@ -43,11 +44,15 @@ RP_ROOT = os.path.join(REPO, "packs", "VibrantVisualsRP")
 BP_ROOT = os.path.join(REPO, "packs", "VibrantVisualsBP")
 
 # How strongly luminance variance perturbs the vanilla roughness channel.
-ROUGHNESS_DETAIL = 0.30
+ROUGHNESS_DETAIL = 0.50
 # Bump strength range: flat-ish for mirror-smooth surfaces up to strong relief
 # for fully rough ones (scaled by each block's average vanilla roughness).
 NORMAL_STRENGTH_MIN = 2.0
 NORMAL_STRENGTH_MAX = 10.0
+# Normal maps are rendered at this multiple of the color texture resolution,
+# from a bicubically upsampled height field, so slopes are smooth instead of
+# 16px stair-steps.
+NORMAL_UPSCALE = 4
 MERS_KEYS = ("metalness_emissive_roughness_subsurface", "metalness_emissive_roughness")
 
 
@@ -100,23 +105,32 @@ def build_detail_mers(color_img, mers_img):
     return out, rough_total / (w * h)
 
 
-def build_normal_map(color_img, avg_roughness):
-    """Tangent-space normal map from luminance via a tiling Sobel filter.
+def _upsample_wrapped(height, scale):
+    """Bicubic-upsample a 2D height field with tiling-aware edges.
 
-    Brighter pixels are treated as raised. Strength scales with the block's
-    average roughness so glass/polished metal stay near-flat while stone,
-    bark, and bricks get strong relief. Edges wrap, since block textures tile.
+    Pads the field by wrapping before resizing so the upsampled tile still
+    joins seamlessly with its neighbors in the world.
     """
-    w, h = color_img.size
-    src = color_img.load()
-    vals = [[luminance(src[x, y]) for x in range(w)] for y in range(h)]
-    lo = min(min(r) for r in vals)
-    hi = max(max(r) for r in vals)
-    span = max(hi - lo, 1.0)
-    height = [[(vals[y][x] - lo) / span for x in range(w)] for y in range(h)]
-    strength = NORMAL_STRENGTH_MIN + (NORMAL_STRENGTH_MAX - NORMAL_STRENGTH_MIN) * (
-        avg_roughness / 255.0)
+    h = len(height)
+    w = len(height[0])
+    pad = 4
+    pw, ph = w + 2 * pad, h + 2 * pad
+    im = Image.new("F", (pw, ph))
+    im.putdata([height[(y - pad) % h][(x - pad) % w]
+                for y in range(ph) for x in range(pw)])
+    im = im.resize((pw * scale, ph * scale), Image.BICUBIC)
+    data = list(im.getdata())
+    ow, oh = w * scale, h * scale
+    off = pad * scale
+    rw = pw * scale
+    return [[data[(y + off) * rw + (x + off)] for x in range(ow)]
+            for y in range(oh)]
 
+
+def _normal_from_height(height, strength):
+    """Tiling Sobel filter -> tangent-space normal image."""
+    h = len(height)
+    w = len(height[0])
     out = Image.new("RGB", (w, h))
     dst = out.load()
     for y in range(h):
@@ -135,6 +149,45 @@ def build_normal_map(color_img, avg_roughness):
                 int((nz * inv * 0.5 + 0.5) * 255),
             )
     return out
+
+
+def build_normal_map(color_img, avg_roughness):
+    """High-res tangent-space normal map from luminance.
+
+    Brighter pixels are treated as raised. Strength scales with the block's
+    average roughness so glass/polished metal stay near-flat while stone,
+    bark, and bricks get strong relief. The height field is upsampled
+    NORMAL_UPSCALE-fold before the Sobel pass; gradients are rescaled by the
+    same factor so apparent depth matches the native-resolution result.
+    Vertical flipbook strips (height a multiple of width) are upsampled one
+    square frame at a time so animation frames don't bleed into each other.
+    """
+    w, h = color_img.size
+    src = color_img.load()
+    vals = [[luminance(src[x, y]) for x in range(w)] for y in range(h)]
+    lo = min(min(r) for r in vals)
+    hi = max(max(r) for r in vals)
+    span = max(hi - lo, 1.0)
+    height = [[(vals[y][x] - lo) / span for x in range(w)] for y in range(h)]
+    strength = NORMAL_STRENGTH_MIN + (NORMAL_STRENGTH_MAX - NORMAL_STRENGTH_MIN) * (
+        avg_roughness / 255.0)
+    # Upsampling shrinks per-pixel deltas by the scale factor; compensate so
+    # the rendered slope stays the same, just smoother.
+    strength *= NORMAL_UPSCALE
+
+    if h > w and h % w == 0:
+        # Flipbook: process each square frame independently.
+        frames = []
+        for f in range(h // w):
+            frame = height[f * w:(f + 1) * w]
+            frames.append(_normal_from_height(
+                _upsample_wrapped(frame, NORMAL_UPSCALE), strength))
+        out = Image.new("RGB", (w * NORMAL_UPSCALE, h * NORMAL_UPSCALE))
+        for f, frame_img in enumerate(frames):
+            out.paste(frame_img, (0, f * w * NORMAL_UPSCALE))
+        return out
+    return _normal_from_height(
+        _upsample_wrapped(height, NORMAL_UPSCALE), strength)
 
 
 def generate_textures(vanilla_dir):
@@ -158,7 +211,10 @@ def generate_textures(vanilla_dir):
             continue
 
         color_img = Image.open(color_path).convert("RGBA")
-        color_img.save(os.path.join(RP_BLOCKS, f"{color_ref}.png"))
+        # Copy the original byte-for-byte (some colors are TGA with alpha);
+        # re-encoding could shift palettes or leave a duplicate extension.
+        shutil.copyfile(color_path, os.path.join(
+            RP_BLOCKS, os.path.basename(color_path)))
         listed.add(f"textures/blocks/{color_ref}")
 
         mers_out, avg_rough = build_detail_mers(color_img, load_mers(mers_path))

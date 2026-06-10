@@ -235,9 +235,15 @@ def generate_textures(vanilla_dir):
                 "metalness_emissive_roughness_subsurface": mers_ref,
             },
         }
-        if "normal" in ts:
-            # Fluids ship a hand-authored vanilla normal map; keep it.
-            out_set["minecraft:texture_set"]["normal"] = ts["normal"]
+        vanilla_normal = ts.get("normal") if isinstance(ts.get("normal"), str) else None
+        vanilla_normal_path = find_texture(vanilla_dir, vanilla_normal) if vanilla_normal else None
+        if vanilla_normal_path:
+            # Fluids ship a hand-authored vanilla normal map. Texture sets may
+            # only reference images inside their own pack, so copy it over.
+            shutil.copyfile(vanilla_normal_path, os.path.join(
+                RP_BLOCKS, os.path.basename(vanilla_normal_path)))
+            out_set["minecraft:texture_set"]["normal"] = vanilla_normal
+            listed.add(f"textures/blocks/{vanilla_normal}")
             normals += 1
         else:
             nm_name = f"{base}_normal_gen"
